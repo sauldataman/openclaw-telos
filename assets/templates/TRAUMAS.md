@@ -1,74 +1,67 @@
-# Traumas & Formative Experiences
+# Traumas
 
-> 创伤和关键经历塑造了你的行为模式——理解它们，才能选择而非被动反应。Understanding formative experiences helps you respond consciously rather than react automatically.
+**Formative experiences that shaped who you are.**
+
+Understanding your past helps you understand your present patterns. This is private self-knowledge.
 
 ---
 
-## Difficult Formative Experiences
+## Formative Experiences
 
-### TR0 — [FIRST FORMATIVE EXPERIENCE]
+### TR0: [Early Life Experience]
+**Period:** [Childhood/Adolescence/Young Adult]
+**What Happened:** [Brief description]
+**Impact:** [How this shaped you]
+**Patterns It Created:** [Behaviors or beliefs that emerged]
 
-- **Period:** [Age range or years]
-- **What Happened:** [Brief, honest description]
-- **Impact:** [How this shaped you — behaviors, beliefs, fears]
-- **Patterns Created:** [Recurring patterns in your life that trace back to this]
-- **Linked to:** C[#], B[#], FR[#]
+### TR1: [Another Formative Experience]
+**Period:** [When]
+**What Happened:** [Description]
+**Impact:** [How this affected you]
+**Patterns It Created:** [Resulting patterns]
 
-### TR1 — [SECOND FORMATIVE EXPERIENCE]
-
-- **Period:** [Age range or years]
-- **What Happened:** [Brief description]
-- **Impact:** [How this shaped you]
-- **Patterns Created:** [Recurring patterns]
-- **Linked to:** C[#], B[#], FR[#]
-
-### TR2 — [THIRD FORMATIVE EXPERIENCE]
-
-- **Period:** [Age range or years]
-- **What Happened:** [Brief description]
-- **Impact:** [How this shaped you]
-- **Patterns Created:** [Recurring patterns]
-- **Linked to:** C[#], B[#], FR[#]
+### TR2: [Third Experience]
+**Period:** [When]
+**What Happened:** [Description]
+**Impact:** [Effect on you]
+**Related To:** [Connected to other traumas or challenges]
 
 ---
 
 ## Trauma → Pattern Mapping
 
-| Experience | Pattern | Where It Shows Up | Adaptive? |
-|-----------|---------|-------------------|-----------|
-| TR[#] | [Behavioral pattern] | [Work/Relationships/Decisions] | [Yes — still useful / No — needs updating] |
-| TR[#] | [Pattern] | [Context] | [Yes/No] |
-| TR[#] | [Pattern] | [Context] | [Yes/No] |
+| Trauma | Patterns Created | Current Challenge |
+|--------|-----------------|-------------------|
+| TR0 | [Patterns] | C# (if connected) |
+| TR1 | [Patterns] | C# (if connected) |
+
+---
 
 ## Processing Progress
 
-<!-- 你正在如何处理这些经历 -->
-
-| Experience | Method | Status | Notes |
-|-----------|--------|--------|-------|
-| TR[#] | [Therapy / Journaling / Coaching / Conversation] | [Processing / Integrated / Unprocessed] | [Notes] |
-| TR[#] | [Method] | [Status] | [Notes] |
+| Trauma | Processed? | Method | Current Status |
+|--------|------------|--------|----------------|
+| TR0 | Partially | [Therapy/Self-work/etc] | [Status] |
+| TR1 | Yes | [Method] | Integrated |
 
 ---
 
 ## Positive Formative Experiences
 
-<!-- 不只是创伤——积极的关键经历同样塑造了你 -->
+Not all formative experiences are negative. Include positive ones too:
 
-### TR+1 — [POSITIVE FORMATIVE EXPERIENCE]
-
-- **Period:** [When]
-- **What Happened:** [Description]
-- **Impact:** [How this positively shaped you]
-- **Strengths Created:** [What capabilities or qualities came from this]
-
-### TR+2 — [POSITIVE FORMATIVE EXPERIENCE]
-
-- **Period:** [When]
-- **What Happened:** [Description]
-- **Impact:** [Positive impact]
-- **Strengths Created:** [Capabilities/qualities]
+### TR+1: [Positive Experience]
+**What Happened:** [Description]
+**Gift It Gave:** [Strength or positive pattern that emerged]
 
 ---
 
-**Review frequency:** As needed — revisit when you notice old patterns emerging. Handle with care.
+## Notes
+
+This section is deeply personal. Write what helps you understand yourself. You can keep this sparse or detailed - whatever serves you.
+
+The goal isn't to dwell on the past but to understand how it shaped your present patterns so you can work with them consciously.
+
+---
+
+*This document is private. Review when you notice old patterns emerging.*

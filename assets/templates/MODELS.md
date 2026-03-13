@@ -1,99 +1,79 @@
 # Models
 
-> 心智模型是你理解世界运作方式的简化框架——好的模型帮助你做出更好的预测和决策。Mental models are your simplified maps of how things work.
+**Your understanding of how the world works.**
+
+Mental models are simplified representations of complex systems. They help you predict, decide, and act.
 
 ---
 
 ## Foundational Models
 
-### MO0 — [PRIMARY WORLD MODEL]
-- **Model:** [How you think the world fundamentally works]
-- **Useful for:** [What decisions this informs]
-- **Limitation:** [Where this model breaks down]
+### MO0: [Philosophy/Worldview Model]
+[Your core philosophy for dealing with life - e.g., Stoicism, growth mindset, etc.]
 
-### MO1 — [HUMAN NATURE MODEL]
-- **Model:** [What you believe drives human behavior]
-- **Useful for:** [Context]
-- **Limitation:** [Where it breaks down]
+### MO1: [Human Behavior Model]
+[Your model for understanding why people do what they do]
 
-### MO2 — [SYSTEMS MODEL]
-- **Model:** [How you think about complex systems — e.g., feedback loops, emergence]
-- **Useful for:** [Context]
-- **Limitation:** [Where it breaks down]
+### MO2: [Identity Model]
+[Your understanding of how identity works and shapes behavior]
 
-### MO3 — [CHANGE/PROGRESS MODEL]
-- **Model:** [How you think change happens]
-- **Useful for:** [Context]
-- **Limitation:** [Where it breaks down]
+---
 
 ## Success Models
 
-### MO4 — [CAREER SUCCESS MODEL]
-- **Model:** [What you believe leads to career success]
-- **Useful for:** [Career decisions]
-- **Limitation:** [Where it breaks down]
+### MO4: [Achievement Model]
+[Your model for how success/achievement actually works]
 
-### MO5 — [WEALTH MODEL]
-- **Model:** [How you think wealth is built]
-- **Useful for:** [Financial decisions]
-- **Limitation:** [Where it breaks down]
+### MO5: [Skill Development Model]
+[How you understand learning and improvement]
 
-### MO6 — [LEARNING MODEL]
-- **Model:** [How you think people learn best]
-- **Useful for:** [Skill development]
-- **Limitation:** [Where it breaks down]
+### MO6: [Leadership Model]
+[Your model for effective leadership]
 
-### MO7 — [CREATIVITY MODEL]
-- **Model:** [How you think new ideas emerge]
-- **Useful for:** [Innovation, problem-solving]
-- **Limitation:** [Where it breaks down]
+---
 
 ## Systems Models
 
-### MO8 — [TECHNOLOGY MODEL]
-- **Model:** [How you think technology evolves and impacts society]
-- **Useful for:** [Tech decisions, predictions]
-- **Limitation:** [Where it breaks down]
+### MO7: [Business/Organization Model]
+[How you understand how organizations function]
 
-### MO9 — [ORGANIZATION MODEL]
-- **Model:** [How you think organizations/teams work]
-- **Useful for:** [Building teams, navigating orgs]
-- **Limitation:** [Where it breaks down]
+### MO8: [Society Model]
+[Your model for how society/culture operates]
+
+### MO9: [Technology Model]
+[How you understand technological change and adoption]
+
+---
 
 ## Relationship Models
 
-### MO10 — [TRUST MODEL]
-- **Model:** [How you think trust is built and maintained]
-- **Useful for:** [Relationships, partnerships]
-- **Limitation:** [Where it breaks down]
+### MO10: [Trust Model]
+[Your model for how trust is built and lost]
 
-### MO11 — [INFLUENCE MODEL]
-- **Model:** [How you think influence and persuasion work]
-- **Useful for:** [Communication, leadership]
-- **Limitation:** [Where it breaks down]
+### MO11: [Communication Model]
+[How you understand effective communication]
 
 ---
 
-## Model Application by Domain
-
-<!-- 不同领域使用不同模型组合 -->
+## Model Application
 
 | Domain | Primary Models | How Applied |
 |--------|---------------|-------------|
-| Investing | MO[#], MO[#] | [How you use these models for investment decisions] |
-| Building Products | MO[#], MO[#] | [How you use these for product decisions] |
-| Relationships | MO[#], MO[#] | [How you use these for relationship decisions] |
-| Learning | MO[#], MO[#] | [How you use these for learning strategy] |
-| Career | MO[#], MO[#] | [How you use these for career moves] |
-
-## Model Conflicts
-
-<!-- 当模型之间矛盾时，如何取舍？ -->
-
-| Model A | Model B | Conflict | Resolution |
-|---------|---------|----------|-----------|
-| MO[#] | MO[#] | [Where they disagree] | [Which one wins and why] |
+| Work | MO4, MO6, MO7 | [Application] |
+| Relationships | MO2, MO10, MO11 | [Application] |
+| Personal Growth | MO1, MO5 | [Application] |
+| Understanding Others | MO2, MO3 | [Application] |
 
 ---
 
-**Review frequency:** Quarterly — test models against recent experience, update limitations.
+## Model Updates
+
+Track when your models change based on new evidence:
+
+| Model | Previous Understanding | Updated Understanding | What Changed | Date |
+|-------|----------------------|----------------------|--------------|------|
+| MO# | [Old version] | [New version] | [Evidence] | [Date] |
+
+---
+
+*Review when predictions fail. Update models based on evidence, not wishes.*

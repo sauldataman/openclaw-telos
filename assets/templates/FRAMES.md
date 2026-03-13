@@ -1,79 +1,78 @@
 # Frames
 
-> 框架是你看待世界的镜头——不同的框架产生不同的行动。Frames are the lenses through which you interpret reality.
+**Useful perspectives for seeing the world.**
+
+Frames are mental lenses that help you interpret situations productively.
 
 ---
 
 ## Self-Frames
 
-### FR0 — [PRIMARY IDENTITY FRAME]
-<!-- 你如何定义自己？这个框架影响你所有的决定 -->
-- **Frame:** [How you see yourself — e.g., "I am a builder who..."]
-- **When active:** [Always / Situational]
-- **Effect on behavior:** [What this frame makes you do/avoid]
+How you see yourself and your capabilities.
 
-### FR1 — [SECONDARY IDENTITY FRAME]
-- **Frame:** [Another way you see yourself]
-- **When active:** [Context]
-- **Effect on behavior:** [Impact]
+### FR0: [Self-Identity Frame]
+[A useful frame for how you see yourself and your strengths]
 
-### FR2 — [ASPIRATIONAL FRAME]
-- **Frame:** [Who you're becoming]
-- **When active:** [Context]
-- **Effect on behavior:** [Impact]
+### FR1: [Capability Frame]
+[A frame about what you're capable of achieving]
+
+---
 
 ## Situational Frames
 
-### FR3 — [WORK/CAREER FRAME]
-- **Frame:** [How you see your professional context]
-- **When active:** [Work situations]
-- **Effect on behavior:** [Impact]
+Perspectives for understanding situations and others.
 
-### FR4 — [ADVERSITY FRAME]
-- **Frame:** [How you interpret setbacks — e.g., "Obstacles are data..."]
-- **When active:** [When things go wrong]
-- **Effect on behavior:** [Impact]
+### FR2: [Understanding Others Frame]
+[A frame for interpreting others' behavior productively]
 
-### FR5 — [OPPORTUNITY FRAME]
-- **Frame:** [How you evaluate opportunities]
-- **When active:** [Decisions about new ventures]
-- **Effect on behavior:** [Impact]
+### FR4: [Challenge Frame]
+[How to view obstacles and setbacks]
+
+### FR5: [Opportunity Frame]
+[How to recognize and approach opportunities]
+
+---
 
 ## Decision Frames
 
-### FR6 — [RISK FRAME]
-- **Frame:** [How you think about risk]
-- **When active:** [High-stakes decisions]
-- **Effect on behavior:** [Impact]
+Perspectives that guide decision-making.
 
-### FR7 — [TIME FRAME]
-- **Frame:** [How you think about time — e.g., "Long-term > short-term..."]
-- **When active:** [Planning/prioritizing]
-- **Effect on behavior:** [Impact]
+### FR6: [Trade-off Frame]
+[A frame for thinking about trade-offs]
+
+### FR7: [Long-term vs Short-term Frame]
+[How to balance immediate and future needs]
+
+---
 
 ## Relationship Frames
 
-### FR8 — [PEOPLE FRAME]
-- **Frame:** [How you evaluate/categorize people]
-- **When active:** [Meeting new people, evaluating relationships]
-- **Effect on behavior:** [Impact]
+How to think about relationships and interactions.
 
-### FR9 — [CONFLICT FRAME]
-- **Frame:** [How you approach disagreement]
-- **When active:** [Conflicts, negotiations]
-- **Effect on behavior:** [Impact]
+### FR8: [Trust Frame]
+[How you think about trust and reliability]
+
+### FR9: [Conflict Frame]
+[How to approach disagreements productively]
 
 ---
 
 ## Frame Application Log
 
-<!-- 记录你何时有意识地切换框架 -->
-
-| Date | Situation | Frame Used | Outcome | Better Frame? |
-|------|-----------|-----------|---------|--------------|
-| [DATE] | [What happened] | FR[#] | [Result] | [Alternative frame] |
-| [DATE] | [What happened] | FR[#] | [Result] | [Alternative frame] |
+| Situation | Frame Applied | Outcome |
+|-----------|---------------|---------|
+| [Situation] | FR# | [How it helped] |
 
 ---
 
-**Review frequency:** Quarterly — check which frames are serving you and which need updating.
+## Frames Under Review
+
+Frames you're questioning or updating:
+
+| Frame | Question | New Evidence |
+|-------|----------|--------------|
+| FR# | [What's making you question it] | [New info] |
+
+---
+
+*Review when facing difficult situations. Frames are tools - use the right one for the context.*

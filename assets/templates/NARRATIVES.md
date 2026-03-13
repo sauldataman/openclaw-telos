@@ -1,90 +1,79 @@
 # Narratives
 
-> 叙事是你讲述自己故事的方式——对不同的受众，用不同的角度。Narratives are how you communicate who you are and where you're going.
+**Your active talking points and key messages.**
+
+These are the stories and perspectives you share with others - your public voice and positions.
 
 ---
 
-## N0 — Elevator Pitch
+## Core Narratives
 
-> [ONE TO TWO SENTENCES: Who you are, what you do, why it matters]
+### N0: [Elevator Pitch]
+*One sentence about what you do.*
 
-- **Audience:** Everyone
-- **Key message:** [The one thing people should remember]
-- **Talking points:**
-  - [Point 1]
-  - [Point 2]
+[Your one-line description of your work/mission]
 
-## N1 — Professional Narrative
+### N1: [Primary Narrative]
+*Why your work matters.*
 
-> [YOUR CAREER STORY IN 3-5 SENTENCES: Where you've been, what you've learned, where you're heading]
+[Your main message about the importance of what you do]
 
-- **Audience:** Professional contacts, hiring managers, investors
-- **Key message:** [The throughline of your career]
-- **Talking points:**
-  - [Background/origin]
-  - [Key transitions and why]
-  - [What you're focused on now]
-  - [Where you're heading]
+### N2: [Perspective on Key Topic]
+*A viewpoint you frequently share.*
 
-## N2 — Vision Narrative
+[A perspective you often discuss with others]
 
-> [YOUR VISION FOR THE FUTURE IN 3-5 SENTENCES: What you're building toward]
+### N3: [Another Key Message]
+*Something you believe strongly and communicate.*
 
-- **Audience:** Collaborators, team members, close network
-- **Key message:** [The world you want to create or the change you want to make]
-- **Talking points:**
-  - [The problem you see]
-  - [Your unique angle]
-  - [What success looks like]
+[Another important narrative you share]
 
----
+### N4: [Contrarian Take]
+*Something you believe that others may disagree with.*
 
-## Key Messages
+[A perspective that challenges conventional thinking]
 
-### N3 — [TOPIC/DOMAIN MESSAGE]
-<!-- 你在某个领域的核心观点 -->
-- **Message:** [Your key message about this topic]
-- **Audience:** [Who needs to hear this]
-- **Supporting evidence:** [Why you believe this]
+### N5: [Explanation Narrative]
+*How you explain a complex concept simply.*
 
-### N4 — [TOPIC/DOMAIN MESSAGE]
-- **Message:** [Key message]
-- **Audience:** [Who]
-- **Supporting evidence:** [Why]
+[A narrative that helps people understand something important]
 
-### N5 — [TOPIC/DOMAIN MESSAGE]
-- **Message:** [Key message]
-- **Audience:** [Who]
-- **Supporting evidence:** [Why]
+### N6: [Vision Narrative]
+*Your vision for the future.*
 
-### N6 — [PERSONAL BRAND MESSAGE]
-- **Message:** [What you want to be known for]
-- **Audience:** [Broad public / specific community]
-- **Supporting evidence:** [Track record]
+[What you see happening and why it matters]
 
 ---
 
 ## Narrative → Mission Mapping
 
 | Narrative | Supports Mission | Context |
-|-----------|-----------------|---------|
-| N0 | M[#] | General introduction |
-| N1 | M[#] | Professional settings |
-| N2 | M[#] | Vision/strategy discussions |
-| N3 | M[#] | [Context] |
-| N4 | M[#] | [Context] |
-
-## Narrative Versions
-
-<!-- 同一个故事的不同版本，适用于不同场景 -->
-
-| Context | Length | Emphasis | Last Updated |
-|---------|--------|----------|-------------|
-| Twitter/X bio | 1 line | [Focus] | [DATE] |
-| Conference intro | 30 sec | [Focus] | [DATE] |
-| Podcast appearance | 2-3 min | [Focus] | [DATE] |
-| Long-form interview | 10+ min | [Focus] | [DATE] |
+|-----------|------------------|---------|
+| N0 | M0 | Quick introduction |
+| N1 | M1, M2 | In-depth discussions |
+| N2 | M0 | Topic-specific |
+| N3 | M1 | Professional contexts |
 
 ---
 
-**Review frequency:** Monthly — update as your story evolves and you find better ways to tell it.
+## Narrative Evolution
+
+Track how your messaging changes over time:
+
+| Narrative | Previous Version | Updated Version | Why Changed | Date |
+|-----------|-----------------|-----------------|-------------|------|
+| N# | [Old version] | [New version] | [Reason] | [Date] |
+
+---
+
+## Audience-Specific Narratives
+
+| Audience | Primary Narratives | Adjust For |
+|----------|-------------------|------------|
+| General public | N0, N1 | Simplicity |
+| Industry peers | N1, N2, N3 | Depth |
+| Technical audience | N4, N5 | Specificity |
+
+---
+
+*Review when preparing talks or content. Update as your thinking evolves.*

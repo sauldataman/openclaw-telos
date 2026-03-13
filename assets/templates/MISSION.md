@@ -1,54 +1,62 @@
-# Missions
+# Mission
 
-> 使命是你存在的根本理由——不是你做什么，而是你为什么做。Missions are the deepest layer of purpose.
+**Your core life missions and purpose.**
+
+Missions are your ultimate purposes - the "why" behind everything else in your TELOS system.
 
 ---
 
-## M0 — [PRIMARY MISSION TITLE]
+## Missions
 
-- **Description:** [What this mission means to you in 2-3 sentences]
-- **Why:** [Why this matters more than anything else]
-- **How:** [The broad approach — not tactics, but philosophy]
-- **Timeline:** Lifetime
-- **Evidence of alignment:** [How you know you're living this mission]
+### M0: [Primary Mission]
+[Your primary life mission - what you're ultimately working toward]
 
-## M1 — [SECONDARY MISSION TITLE]
+**Why:** [Why this matters to you]
+**How:** [How you pursue this]
+**Timeline:** [Ongoing / By X year]
 
-- **Description:** [What this mission means to you]
-- **Why:** [Why this is your second priority]
-- **How:** [Broad approach]
-- **Timeline:** [Lifetime / Decade / Multi-year]
-- **Evidence of alignment:** [How you know you're living this mission]
+### M1: [Secondary Mission]
+[Your secondary mission - another core purpose]
 
-## M2 — [TERTIARY MISSION TITLE]
+**Why:** [Why this matters]
+**How:** [Your approach]
+**Timeline:** [Timeline]
 
-- **Description:** [What this mission means to you]
-- **Why:** [What drives this mission]
-- **How:** [Broad approach]
-- **Timeline:** [Lifetime / Decade / Multi-year]
-- **Evidence of alignment:** [How you know you're living this mission]
+### M2: [Long-term Mission]
+[A longer-term mission, perhaps for later in life]
+
+**Why:** [Why this matters]
+**How:** [How you'll pursue this eventually]
+**Timeline:** [When you'll focus on this]
 
 ---
 
 ## Mission → Goal Mapping
 
-| Mission | Supporting Goals | Status |
-|---------|-----------------|--------|
-| M0 | G[#], G[#] | [On track / Needs attention] |
-| M1 | G[#], G[#] | [On track / Needs attention] |
-| M2 | G[#] | [On track / Needs attention] |
-
-## Mission Alignment Check
-
-<!-- 每季度检查：你的日常行动是否与使命一致？ -->
-
-| Question | Answer |
-|----------|--------|
-| Am I spending time on M0 daily? | [Yes/No — details] |
-| What's pulling me away from M0? | [Distraction/obligation] |
-| Has my understanding of M0 evolved? | [How] |
-| Do M0/M1/M2 conflict anywhere? | [Where] |
+| Mission | Goals | Status |
+|---------|-------|--------|
+| M0 | G0, G2, G4 | Primary focus |
+| M1 | G2, G4 | Active |
+| M3 | - | Future focus |
 
 ---
 
-**Review frequency:** Quarterly — missions rarely change, but your understanding of them deepens.
+## Mission Origins
+
+How did you arrive at these missions? What experiences shaped them?
+
+[Your reflection on how your missions emerged]
+
+---
+
+## Mission Alignment Check
+
+Questions to verify alignment:
+
+- Does this activity serve my mission? [Y/N]
+- Does this decision move me toward my purpose? [Y/N]
+- Would future-me approve of this choice? [Y/N]
+
+---
+
+*Review quarterly. Missions should be stable - if they change frequently, go deeper.*

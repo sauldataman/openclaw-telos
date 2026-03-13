@@ -1,89 +1,66 @@
 # Wisdom
 
-> 智慧是经过验证的认知——你自己的原创想法、借鉴的名言、和反直觉的真理。Wisdom is knowledge tested by experience.
+**Collected insights and aphorisms.**
+
+Truths, quotes, and principles that resonate with you.
 
 ---
 
 ## Personal Aphorisms
 
-<!-- 你自己总结出的原创智慧 -->
+Wisdom you've discovered or coined:
 
-1. [YOUR ORIGINAL INSIGHT — something you've learned that you could teach others]
-2. [ORIGINAL INSIGHT]
-3. [ORIGINAL INSIGHT]
-4. [ORIGINAL INSIGHT]
-5. [ORIGINAL INSIGHT]
+- [Aphorism 1]
+- [Aphorism 2]
+- [Aphorism 3]
+
+---
 
 ## Borrowed Wisdom
 
-<!-- 别人的话，但深刻影响了你 -->
+Quotes and ideas from others that guide you:
 
-- "[QUOTE]" — [Attribution]
-- "[QUOTE]" — [Attribution]
-- "[QUOTE]" — [Attribution]
-- "[QUOTE]" — [Attribution]
-- "[QUOTE]" — [Attribution]
+> "[Quote]"
+> — [Source]
+
+> "[Quote]"
+> — [Source]
+
+---
 
 ## Principles
 
-<!-- 你遵循的可操作原则 -->
+Rules you live by:
 
-1. [PRINCIPLE — actionable rule you live by]
-2. [PRINCIPLE]
-3. [PRINCIPLE]
-4. [PRINCIPLE]
-5. [PRINCIPLE]
-6. [PRINCIPLE]
-7. [PRINCIPLE]
-8. [PRINCIPLE]
-9. [PRINCIPLE]
-10. [PRINCIPLE]
+1. [Principle 1]
+2. [Principle 2]
+3. [Principle 3]
 
 ---
 
 ## Contrarian Wisdom
 
-<!-- 你认为大众错了的地方 -->
+Things most people believe that you think are wrong:
 
-| Common Belief | Your View | Why |
-|--------------|-----------|-----|
-| [What most people believe] | [What you believe instead] | [Your reasoning/evidence] |
-| [Common belief] | [Your view] | [Why] |
-| [Common belief] | [Your view] | [Why] |
+- **Common belief:** [What most think]
+  **Reality:** [What you've learned]
 
 ---
 
 ## Context-Specific Wisdom
 
-### Hard Times
-<!-- 困难时期需要记住的事 -->
-- [WISDOM FOR WHEN THINGS ARE HARD]
-- [WISDOM]
-- [WISDOM]
+### For Hard Times
+- [Wisdom for difficult moments]
 
-### Decisions
-<!-- 做决定时需要记住的事 -->
-- [WISDOM FOR DECISION-MAKING]
-- [WISDOM]
-- [WISDOM]
+### For Decisions
+- [Wisdom for making choices]
 
-### Relationships
-<!-- 关于人际关系的智慧 -->
-- [WISDOM ABOUT RELATIONSHIPS]
-- [WISDOM]
-- [WISDOM]
+### For Relationships
+- [Wisdom for dealing with people]
 
-### Work / Building
-<!-- 关于工作和创造的智慧 -->
-- [WISDOM ABOUT WORK AND BUILDING]
-- [WISDOM]
-- [WISDOM]
-
-### Money / Investing
-<!-- 关于金钱的智慧 -->
-- [WISDOM ABOUT MONEY]
-- [WISDOM]
+### For Work
+- [Wisdom for professional life]
 
 ---
 
-**Review frequency:** Monthly — add new insights, prune ones that no longer resonate.
+*Add insights as you discover them. Review when you need perspective.*

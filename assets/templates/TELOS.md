@@ -1,133 +1,206 @@
-# TELOS — Personal Alignment System
+# TELOS - Your Complete Life Framework
 
-> 基于 Daniel Miessler 的 PAI Framework v2.3，整合个人使命、目标、挑战与策略的总览文件。
+*Last Updated: [DATE]*
 
-**Last Updated:** [DATE]
+This document represents your complete TELOS (purpose/end goal) framework - encompassing your mission, beliefs, strategies, challenges, goals, and accumulated wisdom that guides your journey.
+
+**TELOS** = Greek for "purpose" or "ultimate aim" - the end toward which all actions are directed.
 
 ---
 
 ## Quick Reference
 
-| Section | File | Count | Review Frequency |
-|---------|------|-------|-----------------|
-| Missions | MISSION.md | M0-M2 | Quarterly |
-| Goals | GOALS.md | G0-G4 | Weekly |
-| Challenges | CHALLENGES.md | C0-C3 | Monthly |
-| Strategies | STRATEGIES.md | S0-S2 | Monthly |
-| Beliefs | BELIEFS.md | B0-B2 | Quarterly |
-| Frames | FRAMES.md | FR0-FR9 | Quarterly |
-| Models | MODELS.md | MO0-MO11 | Quarterly |
-| Narratives | NARRATIVES.md | N0-N6 | Monthly |
-| Problems | PROBLEMS.md | P0-P2 | Monthly |
-| Traumas | TRAUMAS.md | TR0-TR2 | As needed |
-| Ideas | IDEAS.md | I0-I2+ | Weekly |
-| Predictions | PREDICTIONS.md | — | Quarterly |
-| Projects | PROJECTS.md | — | Weekly |
-| Books | BOOKS.md | — | Monthly |
-| Movies | MOVIES.md | — | Quarterly |
-| Status | STATUS.md | — | Weekly |
-| Learned | LEARNED.md | — | Weekly |
-| Wisdom | WISDOM.md | — | Monthly |
-| Wrong | WRONG.md | — | Quarterly |
+| Section | Prefix | Purpose |
+|---------|--------|---------|
+| MISSIONS | M# | Core life missions - your ultimate purposes |
+| GOALS | G# | Specific objectives supporting missions |
+| CHALLENGES | C# | Current obstacles you're working to overcome |
+| STRATEGIES | S# | Approaches to address challenges and achieve goals |
+| PROBLEMS | P# | Problems in the world you want to solve |
+| NARRATIVES | N# | Your active talking points and key messages |
+| BELIEFS | B# | Core beliefs that guide your decisions |
+| FRAMES | FR# | Useful perspectives for seeing the world |
+| MODELS | MO# | Your understanding of how things work |
+| TRAUMAS | TR# | Formative experiences that shaped you |
 
 ---
 
-## Missions (M0-M2)
+## MISSIONS
 
-- **M0:** [PRIMARY LIFE MISSION — your reason for being]
-- **M1:** [SECONDARY MISSION — what you want to build or become]
-- **M2:** [TERTIARY MISSION — how you want to contribute]
+Your core life missions - the ultimate purposes that drive everything else.
 
-→ Details: MISSION.md
+- **M0**: [Your primary mission - what you're ultimately working toward]
 
-## Goals (G0-G4)
+- **M1**: [Secondary mission that supports or complements M0]
 
-- **G0:** [TOP PRIORITY GOAL] — supports M[#] — Status: [Active/Paused]
-- **G1:** [SECOND PRIORITY GOAL] — supports M[#] — Status: [Active/Paused]
-- **G2:** [THIRD PRIORITY GOAL] — supports M[#] — Status: [Active/Paused]
-- **G3:** [YEAR-SPECIFIC GOAL] — supports M[#]
-- **G4:** [YEAR-SPECIFIC GOAL] — supports M[#]
-
-→ Details: GOALS.md
-
-## Challenges (C0-C3)
-
-- **C0:** [BIGGEST CHALLENGE] — Impact: [High/Med/Low]
-- **C1:** [SECOND CHALLENGE] — Impact: [High/Med/Low]
-- **C2:** [THIRD CHALLENGE] — Impact: [High/Med/Low]
-- **C3:** [EMERGING CHALLENGE] — Impact: [High/Med/Low]
-
-→ Details: CHALLENGES.md
-
-## Strategies (S0-S2)
-
-- **S0:** [PRIMARY STRATEGY] — addresses C[#]
-- **S1:** [SECONDARY STRATEGY] — addresses C[#]
-- **S2:** [TERTIARY STRATEGY] — addresses C[#]
-
-→ Details: STRATEGIES.md
-
-## Problems (P0-P2)
-
-- **P0:** [WORLD PROBLEM YOU MOST WANT TO SOLVE]
-- **P1:** [SECOND WORLD PROBLEM]
-- **P2:** [THIRD WORLD PROBLEM]
-
-→ Details: PROBLEMS.md
-
-## Narratives (N0-N6)
-
-- **N0:** Elevator Pitch — [ONE SENTENCE ABOUT WHO YOU ARE]
-- **N1:** Professional Narrative — [YOUR CAREER STORY]
-- **N2:** Vision Narrative — [WHERE YOU'RE HEADING]
-- **N3-N6:** Key Messages
-
-→ Details: NARRATIVES.md
-
-## Beliefs (B0-B2)
-
-- **B0:** [CORE BELIEF ABOUT THE WORLD]
-- **B1:** [CORE BELIEF ABOUT PEOPLE]
-- **B2:** [CORE BELIEF ABOUT SUCCESS]
-
-→ Details: BELIEFS.md
-
-## Frames (FR0-FR9)
-
-- **FR0:** [PRIMARY SELF-FRAME — how you see yourself]
-- **FR1-FR3:** Self-Frames
-- **FR4-FR6:** Situational Frames
-- **FR7-FR9:** Decision/Relationship Frames
-
-→ Details: FRAMES.md
-
-## Models (MO0-MO11)
-
-- **MO0:** [FOUNDATIONAL MODEL — how the world works]
-- **MO1-MO3:** Foundational Models
-- **MO4-MO7:** Success Models
-- **MO8-MO11:** Systems/Relationship Models
-
-→ Details: MODELS.md
-
-## Traumas (TR0-TR2)
-
-- **TR0:** [FORMATIVE DIFFICULT EXPERIENCE]
-- **TR1:** [SECOND FORMATIVE EXPERIENCE]
-- **TR2:** [THIRD FORMATIVE EXPERIENCE]
-
-→ Details: TRAUMAS.md
-
-## Current Focus
-
-<!-- 当前最重要的三件事 -->
-
-1. [FOCUS ITEM 1 — linked to G#]
-2. [FOCUS ITEM 2 — linked to G#]
-3. [FOCUS ITEM 3 — linked to G#]
-
-→ Live status: STATUS.md
+- **M2**: [Long-term mission, perhaps one for the future]
 
 ---
 
-**Review frequency:** Monthly — do a full pass to ensure alignment across all sections.
+## GOALS
+
+Specific objectives that support your missions. Include both current and time-bounded goals.
+
+- **G0**: [Primary goal you're working toward now]
+
+- **G1**: [Another current goal]
+
+- **G2**: [Third goal]
+
+### [Year] Goals
+
+- **G3**: [Time-specific goal for this year]
+
+- **G4**: [Another goal for this year]
+
+---
+
+## CHALLENGES
+
+Current obstacles you're working to overcome. Be honest about what's holding you back.
+
+- **C0**: [Your primary challenge right now]
+
+- **C1**: [Another significant challenge]
+
+- **C2**: [Challenge related to habits, discipline, or recurring patterns]
+
+- **C3**: [Financial, relationship, or other life challenge]
+
+---
+
+## STRATEGIES
+
+Your approaches to addressing challenges and achieving goals.
+
+- **S0**: [Strategy for addressing your primary challenge]
+
+- **S1**: [Strategy for achieving key goals]
+
+- **S2**: [General life/work strategy]
+
+---
+
+## PROBLEMS (That I'm Working On)
+
+Problems in the world that you care about and want to help solve.
+
+- **P0**: [A significant problem you want to address]
+
+- **P1**: [Another problem you're passionate about]
+
+- **P2**: [A problem related to your skills and expertise]
+
+---
+
+## NARRATIVES (My Active Talking Points)
+
+Your key messages and perspectives that you share with others.
+
+- **N0**: [Your elevator pitch - one sentence about what you do]
+
+- **N1**: [Core narrative about why your work matters]
+
+- **N2**: [Perspective on a topic you frequently discuss]
+
+- **N3**: [Another key talking point]
+
+---
+
+## BELIEFS
+
+Core beliefs that guide your decisions and worldview.
+
+- **B0**: [A foundational belief about life, success, or meaning]
+
+- **B1**: [Another core belief]
+
+- **B2**: [A belief about relationships, work, or society]
+
+---
+
+## FRAMES (Useful Ways of Seeing the World)
+
+Perspectives and mental models that help you navigate life.
+
+- **FR0**: [A useful frame for how you see yourself]
+
+- **FR1**: [A frame for understanding others or situations]
+
+---
+
+## MODELS (How the World Works)
+
+Your understanding of how things work - your mental models.
+
+- **MO0**: [A model for how success/achievement works]
+
+- **MO1**: [A model for understanding human behavior]
+
+- **MO2**: [A model for how systems/society functions]
+
+---
+
+## TRAUMAS (Formative Experiences)
+
+Experiences that shaped who you are. Being honest about these helps you understand your patterns.
+
+- **TR0**: [A formative experience from childhood]
+
+- **TR1**: [Another significant experience]
+
+---
+
+## LESSONS (Hard-Won Wisdom)
+
+Lessons you've learned through experience. Add to this as you learn.
+
+[Your lessons here - these can be in paragraph form, not numbered]
+
+---
+
+## WISDOM (Aphorisms and Collected Insights)
+
+Quotes, aphorisms, and insights that resonate with you.
+
+[Your collected wisdom here]
+
+---
+
+## WRONG (Things I've Been Wrong About)
+
+Maintaining intellectual humility - what you once believed that turned out to be wrong.
+
+- [Something you were wrong about and when you realized it]
+
+- [Another thing you've updated your beliefs on]
+
+---
+
+## FAVORITE BOOKS
+
+- [Book 1]
+- [Book 2]
+- [Book 3]
+
+---
+
+## FAVORITE MOVIES
+
+- [Movie 1]
+- [Movie 2]
+- [Movie 3]
+
+---
+
+## PREDICTIONS
+
+### [Prediction Title]
+
+- [Description of what you predict will happen]
+- **PREDICTION PUBLISH DATE**: [Date]
+- **CONFIDENCE LEVEL**: [0-100]/100
+
+---
+
+*This TELOS document is a living framework that evolves as you do. Review and update regularly.*
