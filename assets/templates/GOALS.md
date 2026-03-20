@@ -1,105 +1,91 @@
 # Goals
 
-> 目标是使命的具体化——可衡量、有期限、可追踪。Goals translate missions into action.
+**Specific objectives you're working toward.**
+
+Goals support your missions (M#) and represent concrete outcomes you want to achieve.
 
 ---
 
 ## Active Goals
 
-### G0 — [TOP PRIORITY GOAL]
+### G0: [Primary Goal]
+**Status:** Active
+**Supports:** M0
+**Target:** [When you want to achieve this]
+**Progress:**
+- [ ] [Milestone 1]
+- [ ] [Milestone 2]
+- [ ] [Milestone 3]
 
-- **Status:** [Active / Paused / Complete]
-- **Supports:** M[#]
-- **Life Area:** [Career / Health / Relationships / Financial / Personal Growth]
-- **Target Date:** [YYYY-MM-DD]
-- **Success Criteria:** [How you'll know it's done]
-- **Milestones:**
-  - [ ] [First milestone]
-  - [ ] [Second milestone]
-  - [ ] [Third milestone]
-- **Current blockers:** [What's in the way]
-- **Next action:** [Very next step]
+### G1: [Second Goal]
+**Status:** Active
+**Supports:** M0, M1
+**Target:** [Target date]
+**Progress:**
+- [ ] [Milestone]
 
-### G1 — [SECOND PRIORITY GOAL]
-
-- **Status:** [Active / Paused / Complete]
-- **Supports:** M[#]
-- **Life Area:** [Career / Health / Relationships / Financial / Personal Growth]
-- **Target Date:** [YYYY-MM-DD]
-- **Success Criteria:** [How you'll know it's done]
-- **Milestones:**
-  - [ ] [First milestone]
-  - [ ] [Second milestone]
-  - [ ] [Third milestone]
-- **Current blockers:** [What's in the way]
-- **Next action:** [Very next step]
-
-### G2 — [THIRD PRIORITY GOAL]
-
-- **Status:** [Active / Paused / Complete]
-- **Supports:** M[#]
-- **Life Area:** [Career / Health / Relationships / Financial / Personal Growth]
-- **Target Date:** [YYYY-MM-DD]
-- **Success Criteria:** [How you'll know it's done]
-- **Milestones:**
-  - [ ] [First milestone]
-  - [ ] [Second milestone]
-  - [ ] [Third milestone]
-- **Current blockers:** [What's in the way]
-- **Next action:** [Very next step]
+### G2: [Third Goal]
+**Status:** Active
+**Supports:** M1
+**Target:** [Target date]
 
 ---
 
-## Year-Specific Goals ([YEAR])
+## [Year] Goals
 
-### G3 — [YEAR GOAL]
+Time-bounded goals for the current year.
 
-- **Status:** [Active / Paused / Complete]
-- **Supports:** M[#]
-- **Life Area:** [Area]
-- **Target Date:** [YYYY-MM-DD]
-- **Milestones:**
-  - [ ] [Milestone]
+### G3: [Annual Goal 1]
+**Status:** In Progress
+**Deadline:** [End of year]
 
-### G4 — [YEAR GOAL]
+### G4: [Annual Goal 2]
+**Status:** Planning
+**Deadline:** Q3
 
-- **Status:** [Active / Paused / Complete]
-- **Supports:** M[#]
-- **Life Area:** [Area]
-- **Target Date:** [YYYY-MM-DD]
-- **Milestones:**
-  - [ ] [Milestone]
+### G5: [Annual Goal 3]
+**Status:** Not Started
+**Deadline:** Q4
 
 ---
 
 ## Goal → Mission Mapping
 
-| Goal | Supports | Life Area | Status | Target |
-|------|----------|-----------|--------|--------|
-| G0 | M[#] | [Area] | [Active] | [Date] |
-| G1 | M[#] | [Area] | [Active] | [Date] |
-| G2 | M[#] | [Area] | [Active] | [Date] |
-| G3 | M[#] | [Area] | [Active] | [Date] |
-| G4 | M[#] | [Area] | [Active] | [Date] |
-
-## Life Area Breakdown
-
-<!-- 确保各生活领域平衡发展 -->
-
-| Life Area | Active Goals | Status | Notes |
-|-----------|-------------|--------|-------|
-| Career | G[#] | [🟢🟡🔴] | [Brief note] |
-| Health | G[#] | [🟢🟡🔴] | [Brief note] |
-| Relationships | G[#] | [🟢🟡🔴] | [Brief note] |
-| Financial | G[#] | [🟢🟡🔴] | [Brief note] |
-| Personal Growth | G[#] | [🟢🟡🔴] | [Brief note] |
-
-## Completed Goals
-
-| Goal | Completed | What I Learned |
-|------|-----------|---------------|
-| [Goal description] | [Date] | [Key takeaway] |
+| Goal | Mission | Status |
+|------|---------|--------|
+| G0 | M0 | Active |
+| G1 | M0, M1 | Active |
+| G2 | M1 | Active |
+| G3 | M0 | In Progress |
+| G4 | M1 | Planning |
 
 ---
 
-**Review frequency:** Weekly — check progress on milestones and update next actions.
+## Life Areas
+
+### Career
+- [ ] [Goal linked to G#]
+
+### Health
+- [ ] [Goal linked to G#]
+
+### Relationships
+- [ ] [Goal linked to G#]
+
+### Financial
+- [ ] [Goal linked to G#]
+
+### Personal Growth
+- [ ] [Goal linked to G#]
+
+---
+
+## Completed Goals
+
+| Goal | Description | Completed | Key Outcome |
+|------|-------------|-----------|-------------|
+| [G#] | [What it was] | [Date] | [Result] |
+
+---
+
+*Review weekly. Move goals between sections as status changes. Link goals to missions.*

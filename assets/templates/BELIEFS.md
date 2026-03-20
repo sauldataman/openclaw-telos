@@ -1,81 +1,55 @@
 # Beliefs
 
-> 信念塑造行动——审视你的信念，才能理解你的选择。Beliefs are the invisible architecture of your decisions.
+**Core beliefs that guide your decisions and worldview.**
 
 ---
 
-## Core Beliefs
+## Foundational Beliefs
 
-### B0 — [CORE BELIEF ABOUT THE WORLD]
+### B0: [Belief Statement]
+**Evidence:** [Why you believe this]
+**Implications:** [How this affects your decisions]
+**Confidence:** [High / Medium / Low]
 
-- **Statement:** [Clear, concise belief statement]
-- **Evidence:** [What supports this belief]
-- **Counter-evidence:** [What challenges it]
-- **Implications:** [How this belief shapes your behavior]
-- **Confidence:** [High / Medium / Low]
-- **Last examined:** [DATE]
-
-### B1 — [CORE BELIEF ABOUT PEOPLE]
-
-- **Statement:** [Clear belief statement]
-- **Evidence:** [What supports this]
-- **Counter-evidence:** [What challenges it]
-- **Implications:** [How it shapes behavior]
-- **Confidence:** [High / Medium / Low]
-- **Last examined:** [DATE]
-
-### B2 — [CORE BELIEF ABOUT SUCCESS/LIFE]
-
-- **Statement:** [Clear belief statement]
-- **Evidence:** [What supports this]
-- **Counter-evidence:** [What challenges it]
-- **Implications:** [How it shapes behavior]
-- **Confidence:** [High / Medium / Low]
-- **Last examined:** [DATE]
+### B1: [Belief Statement]
+**Evidence:** [Why you believe this]
+**Implications:** [How this affects your decisions]
+**Confidence:** [High / Medium / Low]
 
 ---
 
-## Beliefs by Domain
+## Beliefs About...
 
 ### Work & Career
-- [BELIEF ABOUT WORK — e.g., "The best career strategy is..."]
-- [BELIEF ABOUT BUILDING — e.g., "Products succeed when..."]
-
-### Technology
-- [BELIEF ABOUT TECH — e.g., "AI will..."]
-- [BELIEF ABOUT TECH TRENDS]
-
-### Society
-- [BELIEF ABOUT SOCIETY — e.g., "Most institutions..."]
-- [BELIEF ABOUT HUMAN NATURE]
+- [Belief about work]
 
 ### Relationships
-- [BELIEF ABOUT RELATIONSHIPS — e.g., "Trust is built by..."]
-- [BELIEF ABOUT COMMUNITY]
+- [Belief about relationships]
 
-### Money & Investing
-- [BELIEF ABOUT WEALTH]
-- [BELIEF ABOUT MARKETS]
+### Technology
+- [Belief about technology]
+
+### Society
+- [Belief about society]
 
 ---
 
 ## Beliefs Under Review
 
-<!-- 正在重新审视的信念——可能需要更新 -->
+Beliefs you're currently questioning or updating:
 
-| Belief | Domain | Why Under Review | New Evidence |
-|--------|--------|-----------------|-------------|
-| [Belief being questioned] | [Domain] | [What's making you reconsider] | [New data] |
-
-## Belief Change Log
-
-<!-- 信念的进化记录——理解自己如何改变 -->
-
-| Date | Old Belief | New Belief | What Changed My Mind |
-|------|-----------|-----------|---------------------|
-| [DATE] | [What I used to believe] | [What I believe now] | [The experience/evidence] |
-| [DATE] | [Old] | [New] | [Why] |
+| Belief | Question | New Evidence |
+|--------|----------|--------------|
+| [Belief] | [What's making you question it] | [New info] |
 
 ---
 
-**Review frequency:** Quarterly — examine evidence, update confidence levels, review changes.
+## Belief Change Log
+
+| Old Belief | New Belief | Date | What Changed |
+|------------|------------|------|--------------|
+| [Old] | [New] | [Date] | [Evidence that changed your mind] |
+
+---
+
+*Review when new evidence challenges existing beliefs.*

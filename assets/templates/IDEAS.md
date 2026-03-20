@@ -1,89 +1,87 @@
 # Ideas
 
-> 想法是未来项目和行动的种子——捕捉它们，分类整理，定期筛选。Ideas are seeds. Capture them all, cultivate the best ones.
+**Ideas you want to explore, develop, or pursue.**
+
+A capture space for thoughts that might become projects, content, or new directions.
 
 ---
 
 ## Active Ideas
 
-### I0 — [TOP IDEA]
+Ideas you're actively developing:
 
-- **Category:** [Product / Content / Business / Personal / Experiment]
-- **Status:** [Raw / Developing / Ready / Parked]
-- **Description:** [What the idea is]
-- **Why Interesting:** [Why this excites you or seems important]
-- **Next Step:** [What you'd need to do to move this forward]
-- **Related:** G[#] / P[#] / M[#]
+### I0: [Idea Name]
+**Category:** [Project / Content / Product / Business / Personal]
+**Status:** Exploring
+**Description:** [What the idea is]
+**Why Interesting:** [Why this matters to you]
+**Next Step:** [How to move this forward]
+**Related To:** G# / P# / M# (if connected)
 
-### I1 — [SECOND IDEA]
+### I1: [Second Idea]
+**Category:** [Category]
+**Status:** [Exploring / Developing / Testing]
+**Description:** [Description]
+**Why Interesting:** [Reason]
+**Next Step:** [Next action]
 
-- **Category:** [Category]
-- **Status:** [Status]
-- **Description:** [Description]
-- **Why Interesting:** [Why]
-- **Next Step:** [Next step]
-- **Related:** G[#] / P[#] / M[#]
+### I2: [Third Idea]
+**Category:** [Category]
+**Status:** [Status]
+**Description:** [Description]
 
-### I2 — [THIRD IDEA]
+---
 
-- **Category:** [Category]
-- **Status:** [Status]
-- **Description:** [Description]
-- **Why Interesting:** [Why]
-- **Next Step:** [Next step]
-- **Related:** G[#] / P[#] / M[#]
+## Idea Parking Lot
+
+Ideas to revisit later:
+
+| Idea | Category | Captured | Why Parked |
+|------|----------|----------|------------|
+| [Idea] | [Category] | [Date] | [Reason] |
+| [Idea] | [Category] | [Date] | [Reason] |
 
 ---
 
 ## Ideas by Category
 
 ### Product Ideas
-- [IDEA] — Status: [Raw/Developing/Parked] — Related: G[#]
-- [IDEA] — Status: [Status] — Related: [Ref]
+- [Product idea 1]
+- [Product idea 2]
 
 ### Content Ideas
-- [IDEA] — Status: [Status] — Related: [Ref]
-- [IDEA] — Status: [Status] — Related: [Ref]
+- [Content idea 1]
+- [Content idea 2]
 
 ### Business Ideas
-- [IDEA] — Status: [Status] — Related: [Ref]
-- [IDEA] — Status: [Status] — Related: [Ref]
+- [Business idea 1]
+- [Business idea 2]
 
-### Personal / Lifestyle Ideas
-- [IDEA] — Status: [Status]
-- [IDEA] — Status: [Status]
+### Personal Projects
+- [Project idea 1]
+- [Project idea 2]
 
 ---
 
-## Idea Pipeline
+## Idea → Goal Pipeline
 
-<!-- 从想法到行动的漏斗 -->
+Ideas that have become or could become goals:
 
-| Stage | Count | Examples |
-|-------|-------|---------|
-| Raw (just captured) | [N] | I[#], I[#] |
-| Developing (being fleshed out) | [N] | I[#] |
-| Ready (could start now) | [N] | I[#] |
-| Parked (good but not now) | [N] | I[#] |
+| Idea | Became Goal | Status |
+|------|-------------|--------|
+| I# | G# | Active |
+| I# | - | Under consideration |
 
-## Parking Lot
-
-<!-- 好想法，但现在不是时候 -->
-
-| Idea | Why Parked | Revisit When | Date Parked |
-|------|-----------|-------------|-------------|
-| [Idea description] | [Why not now] | [Trigger or date] | [DATE] |
-| [Idea] | [Why] | [When] | [DATE] |
+---
 
 ## Discarded Ideas
 
-<!-- 放弃的想法和原因——避免重复思考 -->
+Ideas you decided not to pursue (and why):
 
-| Idea | Why Discarded | Date | Lesson |
-|------|--------------|------|--------|
-| [Idea] | [Why it won't work] | [DATE] | [What you learned] |
-| [Idea] | [Why] | [DATE] | [Lesson] |
+| Idea | Date | Why Discarded | Lesson |
+|------|------|---------------|--------|
+| [Idea] | [Date] | [Reason] | [Learning] |
 
 ---
 
-**Review frequency:** Weekly — capture new ideas, move pipeline forward, prune dead ones.
+*Capture ideas quickly. Review regularly. Promote promising ones to goals.*

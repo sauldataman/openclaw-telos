@@ -1,69 +1,91 @@
 # Status
 
-> 当前状态的快照——定期更新，保持对自己的觉察。A living snapshot of where you are right now.
+**Current state across all life areas.**
 
-**Last Updated:** [DATE]
+A quick snapshot of where you are right now.
+
+---
+
+## Last Updated: [DATE]
 
 ---
 
 ## Overall Status
 
-- **Current Focus:** [What's consuming most of your attention]
-- **Energy Level:** [High / Medium / Low]
-- **Mood/Outlook:** [Optimistic / Neutral / Stressed / Reflective]
-- **Season of Life:** [Building / Recovering / Exploring / Maintaining / Transitioning]
+**Current Focus:** [What you're primarily working on]
+**Energy Level:** [High / Medium / Low]
+**General Mood:** [Description]
 
 ---
 
 ## Life Area Status
 
-| Area | Status | Current | Priority Challenge | Active Goal |
-|------|--------|---------|-------------------|-------------|
-| Work/Career | [🟢🟡🔴] | [Brief current state] | C[#]: [Brief] | G[#] |
-| Health | [🟢🟡🔴] | [Brief current state] | C[#]: [Brief] | G[#] |
-| Relationships | [🟢🟡🔴] | [Brief current state] | C[#]: [Brief] | G[#] |
-| Financial | [🟢🟡🔴] | [Brief current state] | C[#]: [Brief] | G[#] |
-| Personal Growth | [🟢🟡🔴] | [Brief current state] | C[#]: [Brief] | G[#] |
-| Projects | [🟢🟡🔴] | [Brief current state] | [Brief] | G[#] |
+### Work/Career
+**Status:** [Green / Yellow / Red]
+**Current:** [What's happening]
+**Priority Challenge:** C#
+**Active Goal:** G#
+
+### Health
+**Status:** [Green / Yellow / Red]
+**Current:** [What's happening]
+**Focus:** [Current health focus]
+
+### Relationships
+**Status:** [Green / Yellow / Red]
+**Current:** [What's happening]
+**Focus:** [Relationship focus]
+
+### Financial
+**Status:** [Green / Yellow / Red]
+**Current:** [What's happening]
+**Focus:** [Financial focus]
+
+### Personal Growth
+**Status:** [Green / Yellow / Red]
+**Current:** [What's happening]
+**Focus:** [Growth focus]
+
+### Creative/Projects
+**Status:** [Green / Yellow / Red]
+**Current:** [What's happening]
+**Active Project:** [Project]
 
 ---
 
 ## Key Metrics
 
-<!-- 你关注的核心数字 -->
-
-| Metric | Current | Target | Trend |
-|--------|---------|--------|-------|
-| [METRIC — e.g., Revenue, Weight, Savings Rate] | [Value] | [Target] | [↑↓→] |
-| [METRIC] | [Value] | [Target] | [↑↓→] |
-| [METRIC] | [Value] | [Target] | [↑↓→] |
-| [METRIC] | [Value] | [Target] | [↑↓→] |
+| Area | Metric | Current | Target |
+|------|--------|---------|--------|
+| [Area] | [What you measure] | [Value] | [Goal] |
+| [Area] | [Metric] | [Value] | [Goal] |
 
 ---
 
 ## This Week's Focus
 
-<!-- 本周最重要的三件事 -->
-
-1. [ ] [FOCUS ITEM 1] — linked to G[#]
-2. [ ] [FOCUS ITEM 2] — linked to G[#]
-3. [ ] [FOCUS ITEM 3] — linked to G[#]
-
-## Current Blockers
-
-<!-- 正在阻碍你前进的事情 -->
-
-- [BLOCKER 1 — what it is and what you're doing about it]
-- [BLOCKER 2 — what it is and what you're doing about it]
-
-## Recent Wins (Last 30 Days)
-
-<!-- 最近的成就——保持动力 -->
-
-- [WIN 1 — what you accomplished and why it matters]
-- [WIN 2]
-- [WIN 3]
+1. [Priority 1]
+2. [Priority 2]
+3. [Priority 3]
 
 ---
 
-**Review frequency:** Weekly — update status indicators, refresh focus items, celebrate wins.
+## Blockers
+
+Current blockers requiring attention:
+
+| Blocker | Related To | Urgency | Action |
+|---------|------------|---------|--------|
+| [Blocker] | C#/G# | High/Med/Low | [Next step] |
+
+---
+
+## Recent Wins
+
+| Win | Date | Related To |
+|-----|------|------------|
+| [Achievement] | [Date] | G#/P# |
+
+---
+
+*Update weekly. Be honest about status - this is for you.*

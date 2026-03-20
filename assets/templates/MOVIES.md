@@ -1,43 +1,81 @@
-# Movies & Media
+# Movies
 
-> 影视作品塑造我们对世界的想象——记录那些真正影响你思考的作品。Track the films and media that shaped how you see the world.
-
----
-
-## Most Influential
-
-<!-- 真正改变了你某个观点或情感的作品 -->
-
-- *[TITLE]* ([YEAR]) — [Why it matters to you / how it changed your thinking]
-- *[TITLE]* ([YEAR]) — [Why it matters]
-- *[TITLE]* ([YEAR]) — [Why it matters]
-- *[TITLE]* ([YEAR]) — [Why it matters]
-- *[TITLE]* ([YEAR]) — [Why it matters]
-
-## Recently Watched — Noteworthy
-
-- *[TITLE]* ([YEAR]) — [Key takeaway or why it stood out]
-- *[TITLE]* ([YEAR]) — [Takeaway]
-- *[TITLE]* ([YEAR]) — [Takeaway]
-
-## Want to Watch
-
-- *[TITLE]* ([YEAR]) — [Why interested] — Recommended by: [Source]
-- *[TITLE]* ([YEAR]) — [Why interested] — Recommended by: [Source]
-- *[TITLE]* ([YEAR]) — [Why interested] — Recommended by: [Source]
+**Films that have influenced or moved you.**
 
 ---
 
-## Themes That Resonate
+## Favorite Movies
 
-<!-- 你反复被什么主题吸引？ -->
+Films that have had lasting impact:
 
-| Theme | Examples | Why It Resonates |
-|-------|---------|-----------------|
-| [Theme — e.g., "Underdog stories"] | *[Film 1]*, *[Film 2]* | [What draws you to this] |
-| [Theme] | *[Film]*, *[Film]* | [Why] |
-| [Theme] | *[Film]*, *[Film]* | [Why] |
+1. [Movie Title] ([Year])
+   - **Why it matters:** [What it means to you]
+
+2. [Movie Title] ([Year])
+   - **Why it matters:** [Significance]
+
+3. [Movie Title] ([Year])
+   - **Why it matters:** [Impact]
+
+4. [Movie Title] ([Year])
+   - **Why it matters:** [Meaning]
+
+5. [Movie Title] ([Year])
+   - **Why it matters:** [Importance]
 
 ---
 
-**Review frequency:** Quarterly — add noteworthy new watches, reflect on patterns.
+## Movies by Category
+
+### Philosophy/Meaning
+- [Movie] ([Year])
+- [Movie] ([Year])
+
+### Sci-Fi/Technology
+- [Movie] ([Year])
+- [Movie] ([Year])
+
+### Drama
+- [Movie] ([Year])
+- [Movie] ([Year])
+
+### Documentary
+- [Documentary] ([Year])
+- [Documentary] ([Year])
+
+### Comedy
+- [Movie] ([Year])
+- [Movie] ([Year])
+
+---
+
+## Watchlist
+
+Films you want to see:
+
+| Movie | Year | Why | Priority |
+|-------|------|-----|----------|
+| [Title] | [Year] | [Reason] | High/Med/Low |
+
+---
+
+## Recently Watched
+
+| Movie | Year | Watched | Rating | Notes |
+|-------|------|---------|--------|-------|
+| [Title] | [Year] | [Date] | [1-10] | [Thoughts] |
+
+---
+
+## Movie Recommendations I Give
+
+Films you recommend to others:
+
+| For Someone Who... | Recommend | Why |
+|-------------------|-----------|-----|
+| [Wants to think about X] | [Movie] | [Reason] |
+| [Needs Y type of story] | [Movie] | [Reason] |
+
+---
+
+*Update after watching something impactful. Films are a window into what moves you.*

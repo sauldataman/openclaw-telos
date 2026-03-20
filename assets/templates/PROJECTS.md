@@ -1,69 +1,53 @@
 # Projects
 
-> 项目是目标的具体载体——有明确的开始、结束和交付物。Projects are the vehicles that carry your goals forward.
+**Current and planned projects.**
 
 ---
 
-## Current Projects
+## Active Projects
 
-| Project | Status | Related | Start Date | Target Date | Priority |
-|---------|--------|---------|-----------|-------------|----------|
-| [PROJECT NAME] | [Active/Paused/Blocked] | M[#]/G[#] | [DATE] | [DATE] | [High/Med/Low] |
-| [PROJECT NAME] | [Status] | M[#]/G[#] | [DATE] | [DATE] | [Priority] |
-| [PROJECT NAME] | [Status] | M[#]/G[#] | [DATE] | [DATE] | [Priority] |
+### [Project Name]
+- **Status:** [Active / Paused / Planning]
+- **Goal:** [What success looks like]
+- **Timeline:** [Expected completion]
+- **Next Actions:**
+  - [ ] [Action 1]
+  - [ ] [Action 2]
+- **Blockers:** [Current obstacles]
+
+### [Project Name]
+- **Status:** [Status]
+- **Goal:** [Goal]
+- **Timeline:** [Timeline]
+- **Next Actions:**
+  - [ ] [Action]
 
 ---
 
-## Project Details
+## Planned Projects
 
-### [PROJECT 1 NAME]
-
-- **Status:** [Active / Paused / Blocked]
-- **Related:** M[#], G[#]
-- **Description:** [What this project is and what it delivers]
-- **Current phase:** [Planning / Building / Testing / Launching / Maintaining]
-- **Next milestone:** [What's the next deliverable]
-- **Blockers:** [What's in the way, if anything]
-- **Key decisions pending:** [Decisions that need to be made]
-
-### [PROJECT 2 NAME]
-
-- **Status:** [Status]
-- **Related:** M[#], G[#]
-- **Description:** [Description]
-- **Current phase:** [Phase]
-- **Next milestone:** [Milestone]
-- **Blockers:** [Blockers]
-- **Key decisions pending:** [Decisions]
-
-### [PROJECT 3 NAME]
-
-- **Status:** [Status]
-- **Related:** M[#], G[#]
-- **Description:** [Description]
-- **Current phase:** [Phase]
-- **Next milestone:** [Milestone]
-- **Blockers:** [Blockers]
-- **Key decisions pending:** [Decisions]
+| Project | Priority | Start Date | Notes |
+|---------|----------|------------|-------|
+| [Project] | High/Med/Low | [Date] | [Notes] |
 
 ---
 
 ## Completed Projects
 
-| Project | Completed | Related | Outcome | Key Lesson |
-|---------|-----------|---------|---------|-----------|
-| [Project name] | [DATE] | G[#] | [Success/Partial/Failure] | [What you learned] |
-| [Project name] | [DATE] | G[#] | [Outcome] | [Lesson] |
-
-## Abandoned Projects
-
-<!-- 放弃的项目同样有价值——记录原因，避免重蹈覆辙 -->
-
-| Project | Started | Abandoned | Why Abandoned | Lesson Learned |
-|---------|---------|-----------|--------------|----------------|
-| [Project name] | [DATE] | [DATE] | [Why you stopped] | [What you learned from stopping] |
-| [Project name] | [DATE] | [DATE] | [Why] | [Lesson] |
+| Project | Completed | Outcome | Lessons |
+|---------|-----------|---------|---------|
+| [Project] | [Date] | [Result] | [What you learned] |
 
 ---
 
-**Review frequency:** Weekly — update status, check blockers, reprioritize if needed.
+## Parked Projects
+
+Projects on hold but not abandoned:
+
+| Project | Parked Date | Why | Resume When |
+|---------|-------------|-----|-------------|
+| [Project] | [Date] | [Reason] | [Condition] |
+
+---
+
+*Update weekly. Move projects between sections as status changes.*

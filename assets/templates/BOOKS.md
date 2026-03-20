@@ -1,58 +1,85 @@
 # Books
 
-> 书籍是浓缩的思想——记录哪些书真正改变了你的思考方式。Track the books that shaped your thinking.
+**Books that have shaped your thinking.**
 
 ---
 
-## Currently Reading
+## Favorite Books
 
-- *[BOOK TITLE]* by [Author] — Started [DATE] — [Why reading this now]
-- *[BOOK TITLE]* by [Author] — Started [DATE] — [Why reading this now]
+Books that have had the most impact on you:
 
-## Completed — Most Influential
+1. [Book Title] by [Author]
+   - **Why it matters:** [Impact on your thinking]
 
-<!-- 真正改变了你思考方式的书 -->
+2. [Book Title] by [Author]
+   - **Why it matters:** [Impact]
 
-- *[BOOK TITLE]* by [Author] — [One-line insight or how it changed your thinking]
-- *[BOOK TITLE]* by [Author] — [One-line insight]
-- *[BOOK TITLE]* by [Author] — [One-line insight]
-- *[BOOK TITLE]* by [Author] — [One-line insight]
-- *[BOOK TITLE]* by [Author] — [One-line insight]
+3. [Book Title] by [Author]
+   - **Why it matters:** [Impact]
 
-## Completed — Notable
+4. [Book Title] by [Author]
+   - **Why it matters:** [Impact]
 
-- *[BOOK TITLE]* by [Author] — [One-line takeaway]
-- *[BOOK TITLE]* by [Author] — [One-line takeaway]
-- *[BOOK TITLE]* by [Author] — [One-line takeaway]
-
-## To Read
-
-- *[BOOK TITLE]* by [Author] — [Why it's on the list] — Recommended by: [Source]
-- *[BOOK TITLE]* by [Author] — [Why] — Recommended by: [Source]
-- *[BOOK TITLE]* by [Author] — [Why] — Recommended by: [Source]
+5. [Book Title] by [Author]
+   - **Why it matters:** [Impact]
 
 ---
 
-## Key Lessons by Book
+## Books by Category
 
-### *[MOST INFLUENTIAL BOOK 1]*
-1. [Key lesson]
-2. [Key lesson]
-3. [Key lesson]
-- **How it changed my behavior:** [Concrete change]
+### Philosophy/Meaning
+- [Book] by [Author]
+- [Book] by [Author]
 
-### *[MOST INFLUENTIAL BOOK 2]*
-1. [Key lesson]
-2. [Key lesson]
-3. [Key lesson]
-- **How it changed my behavior:** [Concrete change]
+### Business/Career
+- [Book] by [Author]
+- [Book] by [Author]
 
-### *[MOST INFLUENTIAL BOOK 3]*
-1. [Key lesson]
-2. [Key lesson]
-3. [Key lesson]
-- **How it changed my behavior:** [Concrete change]
+### Psychology/Self
+- [Book] by [Author]
+- [Book] by [Author]
+
+### Science/Technology
+- [Book] by [Author]
+- [Book] by [Author]
+
+### Fiction
+- [Book] by [Author]
+- [Book] by [Author]
+
+### Biography/Memoir
+- [Book] by [Author]
+- [Book] by [Author]
 
 ---
 
-**Review frequency:** Monthly — add new reads, update lessons, curate the to-read list.
+## Reading Queue
+
+Books you want to read:
+
+| Book | Author | Why | Priority |
+|------|--------|-----|----------|
+| [Title] | [Author] | [Reason] | High/Med/Low |
+
+---
+
+## Recently Read
+
+| Book | Author | Finished | Rating | Key Takeaway |
+|------|--------|----------|--------|--------------|
+| [Title] | [Author] | [Date] | [1-10] | [Main insight] |
+
+---
+
+## Book Recommendations I Give
+
+Books you often recommend to others:
+
+| For Someone Who... | Recommend | Why |
+|-------------------|-----------|-----|
+| [Wants to understand X] | [Book] | [Reason] |
+| [Is struggling with Y] | [Book] | [Reason] |
+
+---
+
+*Update as you read. Your book list reflects your intellectual journey.*
