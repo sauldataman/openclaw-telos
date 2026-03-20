@@ -1,0 +1,7 @@
+# User's personal telos data — never commit
+telos/
+backups/
+updates.md
+
+# OS
+.DS_Store
