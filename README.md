@@ -164,7 +164,7 @@ The skill enforces a safe update workflow:
 ## Credits
 
 - **Original concept**: [Daniel Miessler](https://github.com/danielmiessler) — [Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure)
-- **OpenClaw adaptation**: K ([@imnoobk](https://twitter.com/imnoobk)) + 猴爪
+- **OpenClaw adaptation**: Saul Dataman ([@sauldataman](https://twitter.com/sauldataman))
 
 ---
 
