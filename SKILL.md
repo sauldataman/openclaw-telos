@@ -26,11 +26,11 @@ Absorb silently. Use this context throughout the session without announcing it.
 
 | Trigger | Action |
 |---|---|
-| "setup telos" / "telos onboarding" / "引导我填" | See `references/onboarding.md` — copy templates + guided Q&A |
-| "update telos" / "add to telos" | See `references/update-workflow.md` |
-| "add book [title]" | Append to `BOOKS.md` → ask for one-line insight |
-| "learned [X]" / "add to learned" | Append to `LEARNED.md` → ask context/source |
-| "add to wisdom" | Append to `WISDOM.md` |
+| "setup telos" / "telos onboarding" / "引导我填" | Run `bun ${CLAUDE_SKILL_DIR}/scripts/init-telos.ts` then see `references/onboarding.md` |
+| "update telos" / "add to telos" | Run update script (see below) — respond conversationally, not mechanically |
+| "add book [title]" | Acknowledge the book, reflect on the insight, then append to `BOOKS.md` |
+| "learned [X]" / "add to learned" | Engage with the lesson first, then append to `LEARNED.md` |
+| "add to wisdom" | Discuss the principle, then append to `WISDOM.md` |
 | "telos status" | Read + summarize `STATUS.md` |
 | "my goals / beliefs / missions" | Read relevant file, respond in context |
 | "I was wrong about [X]" | Append to `WRONG.md` with date + lesson |
@@ -52,9 +52,15 @@ Example: user asks "should I take this opportunity?" → read M#, G#, B# → adv
 
 Hierarchy: `M → G ← (blocked by) C ← (solved by) S` | `B` guides all | `P` drives `G`
 
-## Update Rules (summary)
+## Update Workflow
 
-Full workflow: `references/update-workflow.md`
-- Backup before every change: `cp FILE.md backups/FILE_TIMESTAMP.md`
-- Append, never overwrite
-- Log all changes to `updates.md`
+When updating telos, the conversation matters as much as the data. Follow this order:
+
+1. **Engage first** — Acknowledge what the user shared. Reflect on the insight, ask a follow-up, or connect it to their existing telos context. This is a life framework, not a database — treat additions as meaningful moments.
+2. **Execute** — Run the update script: `bun ${CLAUDE_SKILL_DIR}/scripts/update-telos.ts <file> "<content>" "<description>"`
+3. **Confirm briefly** — Mention it's backed up and logged. Don't dump execution logs.
+4. **Suggest connections** — After adding to one file, suggest related files that might benefit. ("This connects to your B0 about compounding — want to add a related strategy?")
+
+Full format rules: `references/update-workflow.md`
+
+The tone should feel like a thoughtful conversation partner recording insights together, not a CLI tool reporting status.

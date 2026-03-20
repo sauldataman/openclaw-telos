@@ -46,10 +46,18 @@ Ask:
 
 Write as C0, link to relevant G#.
 
+## Pacing — Let Users Go at Their Own Speed
+
+At any point during onboarding, if the user seems unsure, tired, or says things like "I'll think about it later" or "not sure yet":
+
+> "No problem — you don't have to fill everything now. TELOS grows with you. As we work together, I'll learn more about your goals and beliefs from our conversations, and I can suggest additions over time. You can always say 'update telos' whenever something comes to mind."
+
+The goal is to get at least M0 (primary mission) captured. Everything else can come gradually through natural conversation — the AI reads TELOS context each session and can suggest additions when relevant topics come up.
+
 ## Step 5: Wrap Up
 
 Tell user:
-> "Your telos foundation is set. I'll use this context to give you more relevant advice. You can keep filling in the other files (STRATEGIES, MODELS, WISDOM, etc.) at your own pace. Say 'update telos' anytime to add to any file."
+> "Your telos foundation is set. I'll use this context to give you more relevant advice. You can keep filling in the other files (STRATEGIES, MODELS, WISDOM, etc.) at your own pace — there's no rush. Say 'update telos' anytime to add to any file, or I'll suggest additions when something relevant comes up in our conversations."
 
 Summarize what was captured: "I now know your [X] missions, [Y] goals, [Z] beliefs."
 

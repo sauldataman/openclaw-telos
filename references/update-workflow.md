@@ -1,12 +1,18 @@
 # TELOS Update Workflow
 
-## Before Any Update
+## Update Command
+
+Use the TypeScript update script for all changes:
 
 ```bash
-# 1. Create timestamped backup
-TIMESTAMP=$(date +%Y%m%dT%H%M%S)
-cp ~/clawd/telos/FILENAME.md ~/clawd/telos/backups/FILENAME_${TIMESTAMP}.md
+bun <skill-dir>/scripts/update-telos.ts <file> "<content>" "<change-description>"
 ```
+
+The script automatically:
+1. Validates the filename against the allowed list
+2. Creates a timestamped backup in `~/clawd/telos/backups/`
+3. Appends content to the file (never overwrites)
+4. Logs the change in `~/clawd/telos/updates.md`
 
 ## Per-File Format Rules
 
@@ -19,12 +25,23 @@ cp ~/clawd/telos/FILENAME.md ~/clawd/telos/backups/FILENAME_${TIMESTAMP}.md
 | WISDOM.md | `> [Quote or principle]\n\n[Source / context]` |
 | WRONG.md | `## [Period] — [What I Believed]\n\n**What happened:** ...\n**Lesson:** ...` |
 
-## After Update
+## Examples
 
-Append to `~/clawd/telos/updates.md`:
-```
-## YYYY-MM-DD HH:MM
-- [FILENAME.md] Brief description of what changed
+```bash
+# Add a book
+bun <skill-dir>/scripts/update-telos.ts BOOKS.md \
+  "- *Thinking, Fast and Slow* by Daniel Kahneman — dual process theory" \
+  "Added book: Thinking, Fast and Slow"
+
+# Record a lesson
+bun <skill-dir>/scripts/update-telos.ts LEARNED.md \
+  "## Consistency Beats Intensity\n\nSmall daily actions compound. Sporadic bursts don't.\n\n*Date: 2026-03-20 · Source: experience*" \
+  "Added lesson about consistency"
+
+# Update beliefs
+bun <skill-dir>/scripts/update-telos.ts BELIEFS.md \
+  "## B5: Complex problems are coordination problems\n\n**Evidence:** Most failures I've seen stem from misalignment, not lack of skill\n**Implications:** Focus on communication and shared context\n**Confidence:** High" \
+  "Added belief about coordination"
 ```
 
 ## Batch Interview Extraction
@@ -32,5 +49,5 @@ Append to `~/clawd/telos/updates.md`:
 When the user says "extract from this conversation/interview into telos":
 1. Identify all telos-relevant content (beliefs, lessons, books, goals, challenges)
 2. Group by file type
-3. Run update workflow once per file (backup → append → log)
+3. Run update script once per file
 4. Report summary: "Added 2 beliefs, 1 book, 3 lessons"

@@ -3,5 +3,8 @@ telos/
 backups/
 updates.md
 
+# Eval workspace (skill-creator test artifacts)
+telos-workspace/
+
 # OS
 .DS_Store
