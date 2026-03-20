@@ -30,7 +30,7 @@ openclaw skills install ./telos.skill
 
 Or clone and install from source:
 ```bash
-git clone https://github.com/sdsaibot/openclaw-telos.git
+git clone https://github.com/sauldataman/openclaw-telos.git
 openclaw skills install ./openclaw-telos/telos.skill
 ```
 
