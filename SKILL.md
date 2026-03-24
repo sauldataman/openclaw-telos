@@ -1,6 +1,6 @@
 ---
 name: telos
-description: "TELOS (Telic Evolution and Life Operating System) — Reads and updates the user's personal life OS stored in ~/clawd/telos/. Provides missions, goals, beliefs, challenges, and wisdom as context for life-aligned AI assistance. Based on Daniel Miessler's PAI framework. Use when: (1) user mentions 'telos', 'setup telos', 'update telos', 'add to telos', 'my goals', 'my beliefs', 'my missions', 'telos status'; (2) user asks about personal decisions, career direction, investment choices, relationships, priorities, or life strategy — always check for telos context first; (3) user says 'help me fill telos', '引导我填 telos', or 'telos onboarding'."
+description: "TELOS (Telic Evolution and Life Operating System) — Reads, updates, and backs up the user's personal life OS stored in ~/clawd/telos/. Provides missions, goals, beliefs, challenges, and wisdom as context for life-aligned AI assistance. Based on Daniel Miessler's PAI framework. Use when: (1) user mentions 'telos', 'setup telos', 'update telos', 'add to telos', 'my goals', 'my beliefs', 'my missions', 'telos status'; (2) user asks about personal decisions, career direction, investment choices, relationships, priorities, or life strategy — always check for telos context first; (3) user says 'help me fill telos', '引导我填 telos', or 'telos onboarding'; (4) user says 'backup telos', 'restore telos', 'telos backups', 'telos history', or 'list telos snapshots'."
 ---
 
 # TELOS — Telic Evolution and Life Operating System
@@ -13,14 +13,36 @@ User's personal life OS. 20-file system capturing who they are across missions, 
 - **Templates**: `assets/templates/` in this skill (20 files)
 - **References**: `references/onboarding.md`, `references/update-workflow.md`
 
-## Session Startup
+## Context Loading
 
-At every MAIN SESSION start:
-1. Check if `~/clawd/telos/TELOS.md` exists → read it as user context
-2. If no TELOS.md but other files exist → read `MISSION.md` + `GOALS.md` + `BELIEFS.md`
-3. No files → skip silently; suggest "setup telos" if user asks about personal topics
+Telos files are loaded **on-demand**, not all at once. Only read what's relevant to the current conversation.
 
-Absorb silently. Use this context throughout the session without announcing it.
+### When to load which files
+
+| User's topic | Files to read |
+|---|---|
+| Career / job decisions | MISSION.md, GOALS.md, BELIEFS.md |
+| Investment / financial decisions | MISSION.md, GOALS.md, BELIEFS.md, STRATEGIES.md |
+| Life direction / what should I do | MISSION.md, GOALS.md, CHALLENGES.md |
+| Stuck / frustrated / blocked | CHALLENGES.md, STRATEGIES.md, GOALS.md |
+| Learning / growth / self-improvement | LEARNED.md, MODELS.md, FRAMES.md |
+| Relationship / people decisions | BELIEFS.md, NARRATIVES.md, WISDOM.md |
+| Book / media recommendation | BOOKS.md, MOVIES.md |
+| Reflecting on mistakes | WRONG.md, LEARNED.md |
+| Planning / project decisions | PROJECTS.md, GOALS.md, STRATEGIES.md |
+| General "what do you know about me" | MISSION.md, GOALS.md, BELIEFS.md, STATUS.md |
+| "setup telos" / onboarding | Read all filled files to assess current state |
+| Updating a specific file | Read that file only |
+
+### How to load
+
+1. Check if `~/clawd/telos/` exists. If not, skip silently.
+2. Based on the user's topic, read only the relevant files from the table above.
+3. Absorb silently — use the context to inform your response without announcing "I read your TELOS files."
+4. If a relevant file is empty (only template content), skip it.
+5. If no telos directory exists and the user asks about personal topics, suggest "setup telos."
+
+The goal is to give personalized, values-aligned responses without loading unnecessary context or slowing down unrelated conversations.
 
 ## Trigger → Action Map
 
@@ -34,6 +56,11 @@ Absorb silently. Use this context throughout the session without announcing it.
 | "telos status" | Read + summarize `STATUS.md` |
 | "my goals / beliefs / missions" | Read relevant file, respond in context |
 | "I was wrong about [X]" | Append to `WRONG.md` with date + lesson |
+| "backup telos" | Run `bun ${CLAUDE_SKILL_DIR}/scripts/backup-telos.ts backup` |
+| "restore telos" / "restore telos from [name]" | Run `bun ${CLAUDE_SKILL_DIR}/scripts/backup-telos.ts restore <name>` |
+| "list telos backups" / "telos snapshots" | Run `bun ${CLAUDE_SKILL_DIR}/scripts/backup-telos.ts list` |
+| "telos history [file]" / "show beliefs history" | Run `bun ${CLAUDE_SKILL_DIR}/scripts/backup-telos.ts history <file>` |
+| "restore beliefs from [version]" | Run `bun ${CLAUDE_SKILL_DIR}/scripts/backup-telos.ts restore-file <file> <ver>` |
 
 ## Personal Analysis Context
 

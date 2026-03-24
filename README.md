@@ -1,6 +1,6 @@
 # openclaw-telos
 
-**TELOS** (Telic Evolution and Life Operating System) — A personal life OS plugin for [OpenClaw](https://openclaw.ai).
+**TELOS** (Telic Evolution and Life Operating System) — A personal life OS skill for [OpenClaw](https://openclaw.ai) and [Claude Code](https://claude.com/claude-code).
 
 Captures who you are across missions, goals, beliefs, challenges, and wisdom. Gives your AI a persistent understanding of *you* — so it can give life-aligned advice, not just generic answers.
 
@@ -14,9 +14,10 @@ Based on [Daniel Miessler's PAI Framework](https://github.com/danielmiessler/Per
 |---|---|
 | 📁 **20 Templates** | Full TELOS file set — fill at your own pace |
 | 🧭 **Guided Onboarding** | Step-by-step Q&A to fill your core files (Missions → Goals → Beliefs) |
-| 🔄 **Update Workflow** | Add books, lessons, wisdom anytime — auto-backup + changelog |
+| 🔄 **Safe Updates** | TypeScript scripts handle backup → append → changelog automatically |
 | 🧠 **Session Context** | AI reads your TELOS at session start, knows your missions and goals throughout |
 | 💡 **Personal Analysis** | When you ask about decisions, career, or investments — AI cross-references your telos |
+| 💬 **Conversational** | AI engages with your insights before recording — not just a database, a thinking partner |
 
 ---
 
@@ -24,33 +25,39 @@ Based on [Daniel Miessler's PAI Framework](https://github.com/danielmiessler/Per
 
 ### 1. Install
 
+**OpenClaw:**
 ```bash
 openclaw skills install ./telos.skill
 ```
 
-Or clone and install from source:
+**Claude Code:**
 ```bash
 git clone https://github.com/sauldataman/openclaw-telos.git
-openclaw skills install ./openclaw-telos/telos.skill
+cp -r openclaw-telos ~/.claude/skills/telos
 ```
 
 ### 2. Initialize
 
-In OpenClaw, say:
+Say:
 ```
 setup telos
 ```
 
-This copies all 20 templates to `~/clawd/telos/` and walks you through filling the core files.
+This runs the init script, copies all 20 templates to `~/clawd/telos/`, and walks you through filling the core files.
+
+Or initialize manually:
+```bash
+bun ~/.claude/skills/telos/scripts/init-telos.ts
+```
 
 ### 3. Start Filling
 
-The AI will guide you through:
+The AI guides you through the essentials:
 1. **Missions** — What are you ultimately trying to achieve?
 2. **Goals** — Specific objectives supporting your missions
 3. **Beliefs** — Core beliefs that guide your decisions
 
-Everything else (WISDOM, LEARNED, MODELS, etc.) you fill gradually over time.
+No pressure to fill everything at once — TELOS grows with you. The AI learns from your conversations and suggests additions over time.
 
 ### 4. Use It
 
@@ -58,19 +65,65 @@ Once set up, the AI automatically:
 - Reads your telos at session start
 - References your goals and beliefs when advising on decisions
 - Flags conflicts between suggestions and your stated missions
+- Suggests telos additions when relevant topics come up naturally
 
 Trigger updates anytime:
 ```
 add this book to telos — The Psychology of Money by Morgan Housel
-I learned something, add to telos — [what you learned]
+I learned something, add to telos — consistency beats intensity
 add to my wisdom — [principle or insight]
+I was wrong about [X]
 update my goals
 telos status
 ```
 
 ---
 
-## File Structure
+## Skill Structure
+
+```
+openclaw-telos/
+├── SKILL.md                    ← Main skill instructions
+├── telos.skill                 ← OpenClaw package
+├── assets/templates/           ← 20 template files
+├── references/
+│   ├── onboarding.md           ← Guided setup workflow
+│   └── update-workflow.md      ← Update format rules per file
+├── scripts/
+│   ├── init-telos.ts           ← Initialize ~/clawd/telos/ from templates
+│   └── update-telos.ts         ← Safe update: backup → append → changelog
+└── evals/
+    └── evals.json              ← Test cases for skill evaluation
+```
+
+### Scripts
+
+**`init-telos.ts`** — Copies templates to `~/clawd/telos/`. Skips files that already exist (safe to rerun).
+
+```bash
+bun scripts/init-telos.ts
+```
+
+**`update-telos.ts`** — Updates a telos file with automatic backup and changelog.
+
+```bash
+bun scripts/update-telos.ts <file> "<content>" "<description>"
+
+# Example:
+bun scripts/update-telos.ts BOOKS.md \
+  "- *Dune* by Frank Herbert — power, ecology, and the danger of messiahs" \
+  "Added book: Dune"
+```
+
+The script:
+1. Validates the filename against the allowed list
+2. Creates a timestamped backup in `~/clawd/telos/backups/`
+3. Appends content (never overwrites)
+4. Logs the change in `~/clawd/telos/updates.md`
+
+---
+
+## User Data Structure
 
 ```
 ~/clawd/telos/              ← Your personal data (never shared)
@@ -104,7 +157,7 @@ Start with these, fill the rest over time:
 
 | Priority | Files |
 |---|---|
-| ⭐⭐⭐ Core (fill first) | TELOS.md or MISSION.md + GOALS.md + BELIEFS.md |
+| ⭐⭐⭐ Core (fill first) | MISSION.md + GOALS.md + BELIEFS.md |
 | ⭐⭐ Important | CHALLENGES.md, STRATEGIES.md, STATUS.md |
 | ⭐ Accumulate over time | WISDOM.md, LEARNED.md, BOOKS.md, MODELS.md, FRAMES.md, WRONG.md |
 | Optional | TRAUMAS.md, PREDICTIONS.md, MOVIES.md, NARRATIVES.md, PROBLEMS.md |
@@ -136,28 +189,19 @@ MODELS (MO#)  → shape understanding
 
 ---
 
-## Update Rules
-
-The skill enforces a safe update workflow:
-
-1. **Always backup first** — auto-creates `~/clawd/telos/backups/FILE_TIMESTAMP.md`
-2. **Append, never overwrite** — preserves history
-3. **Log every change** — appended to `~/clawd/telos/updates.md`
-
----
-
 ## Privacy
 
 - `~/clawd/telos/` is **never committed to git** by default
-- Add `telos/` to your `.gitignore`
 - Templates in this repo contain no personal data
+- All personal data stays local on your machine
 
 ---
 
 ## Compatibility
 
 - **OpenClaw** — Primary target (`.skill` install format)
-- **Claude Code / PAI** — Compatible with Daniel Miessler's PAI framework structure; templates can be used directly in `~/.claude/PAI/USER/TELOS/`
+- **Claude Code** — Copy to `~/.claude/skills/telos/`; compatible with the [Agent Skills](https://agentskills.io) specification
+- **PAI** — Templates can be used directly in `~/.claude/PAI/USER/TELOS/`
 
 ---
 
