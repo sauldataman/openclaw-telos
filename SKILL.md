@@ -60,7 +60,7 @@ The goal: every response to a personal question should be informed by the user's
 
 | Trigger | Action |
 |---|---|
-| "setup telos" / "telos onboarding" / "引导我填" | Run `bun ${CLAUDE_SKILL_DIR}/scripts/init-telos.ts` then see `references/onboarding.md` |
+| "setup telos" / "telos onboarding" / "引导我填" | Run `bun {baseDir}/scripts/init-telos.ts` then see `references/onboarding.md` |
 | "update telos" / "add to telos" | Run update script (see below) — respond conversationally, not mechanically |
 | "add book [title]" | Acknowledge the book, reflect on the insight, then append to `BOOKS.md` |
 | "learned [X]" / "add to learned" | Engage with the lesson first, then append to `LEARNED.md` |
@@ -68,11 +68,11 @@ The goal: every response to a personal question should be informed by the user's
 | "telos status" | Read + summarize `STATUS.md` |
 | "my goals / beliefs / missions" | Read relevant file, respond in context |
 | "I was wrong about [X]" | Append to `WRONG.md` with date + lesson |
-| "backup telos" | Run `bun ${CLAUDE_SKILL_DIR}/scripts/backup-telos.ts backup` |
-| "restore telos" / "restore telos from [name]" | Run `bun ${CLAUDE_SKILL_DIR}/scripts/backup-telos.ts restore <name>` |
-| "list telos backups" / "telos snapshots" | Run `bun ${CLAUDE_SKILL_DIR}/scripts/backup-telos.ts list` |
-| "telos history [file]" / "show beliefs history" | Run `bun ${CLAUDE_SKILL_DIR}/scripts/backup-telos.ts history <file>` |
-| "restore beliefs from [version]" | Run `bun ${CLAUDE_SKILL_DIR}/scripts/backup-telos.ts restore-file <file> <ver>` |
+| "backup telos" | Run `bun {baseDir}/scripts/backup-telos.ts backup` |
+| "restore telos" / "restore telos from [name]" | Run `bun {baseDir}/scripts/backup-telos.ts restore <name>` |
+| "list telos backups" / "telos snapshots" | Run `bun {baseDir}/scripts/backup-telos.ts list` |
+| "telos history [file]" / "show beliefs history" | Run `bun {baseDir}/scripts/backup-telos.ts history <file>` |
+| "restore beliefs from [version]" | Run `bun {baseDir}/scripts/backup-telos.ts restore-file <file> <ver>` |
 
 ## Personal Analysis Context
 
@@ -96,7 +96,7 @@ Hierarchy: `M → G ← (blocked by) C ← (solved by) S` | `B` guides all | `P`
 When updating telos, the conversation matters as much as the data. Follow this order:
 
 1. **Engage first** — Acknowledge what the user shared. Reflect on the insight, ask a follow-up, or connect it to their existing telos context. This is a life framework, not a database — treat additions as meaningful moments.
-2. **Execute** — Run the update script: `bun ${CLAUDE_SKILL_DIR}/scripts/update-telos.ts <file> "<content>" "<description>"`
+2. **Execute** — Run the update script: `bun {baseDir}/scripts/update-telos.ts <file> "<content>" "<description>"`
 3. **Confirm briefly** — Mention it's backed up and logged. Don't dump execution logs.
 4. **Suggest connections** — After adding to one file, suggest related files that might benefit. ("This connects to your B0 about compounding — want to add a related strategy?")
 
