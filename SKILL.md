@@ -103,3 +103,26 @@ When updating telos, the conversation matters as much as the data. Follow this o
 Full format rules: `references/update-workflow.md`
 
 The tone should feel like a thoughtful conversation partner recording insights together, not a CLI tool reporting status.
+
+## OpenClaw Hook Integration
+
+For deeper integration, the skill includes a hook that automatically injects TELOS context into conversations:
+
+**What it does:**
+- **Session start (`agent:bootstrap`):** Loads MISSION.md + GOALS.md + BELIEFS.md so the AI knows your core context from the first message
+- **Every message (`message:preprocessed`):** Detects personal topics (career, decisions, investments, etc.) and injects only the relevant TELOS files before the AI responds
+
+**Install the hook:**
+```bash
+cp {baseDir}/hooks/telos-context.js ~/.openclaw/hooks/
+```
+
+**How it works:**
+- User asks about career → hook detects "career" keywords → injects MISSION + GOALS + BELIEFS + STRATEGIES
+- User asks to add a book → hook detects "book" → injects BOOKS.md
+- User asks a coding question → no personal keywords detected → nothing injected (zero overhead)
+- Empty template files are automatically skipped (won't inject placeholder content)
+
+**Without the hook:** The skill still works — the AI reads the SKILL.md instructions and loads TELOS files based on the File Index table above. The hook just makes it automatic and faster.
+
+**With the hook:** Context is pre-injected before the AI even sees the message, so responses are personalized from the first token.

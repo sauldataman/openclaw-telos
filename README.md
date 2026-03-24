@@ -189,6 +189,23 @@ MODELS (MO#)  → shape understanding
 
 ---
 
+## OpenClaw Hook (Optional)
+
+For automatic context injection, install the included hook:
+
+```bash
+cp hooks/telos-context.js ~/.openclaw/hooks/
+```
+
+This gives you:
+- **Session start:** AI automatically knows your missions, goals, beliefs from the first message
+- **Personal questions:** Relevant TELOS files injected before the AI responds (career question → loads STRATEGIES, book question → loads BOOKS.md, coding question → nothing loaded)
+- **Zero overhead:** Non-personal conversations get no TELOS context at all
+
+Without the hook, the skill still works — the AI follows the SKILL.md instructions to load files on demand. The hook just makes it seamless.
+
+---
+
 ## Privacy
 
 - `~/clawd/telos/` is **never committed to git** by default
