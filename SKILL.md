@@ -15,34 +15,46 @@ User's personal life OS. 20-file system capturing who they are across missions, 
 
 ## Context Loading
 
-Telos files are loaded **on-demand**, not all at once. Only read what's relevant to the current conversation.
+Telos files are loaded **on-demand** — only read what's relevant to the current conversation. Never load everything at once.
 
-### When to load which files
+### File Index
 
-| User's topic | Files to read |
-|---|---|
-| Career / job decisions | MISSION.md, GOALS.md, BELIEFS.md |
-| Investment / financial decisions | MISSION.md, GOALS.md, BELIEFS.md, STRATEGIES.md |
-| Life direction / what should I do | MISSION.md, GOALS.md, CHALLENGES.md |
-| Stuck / frustrated / blocked | CHALLENGES.md, STRATEGIES.md, GOALS.md |
-| Learning / growth / self-improvement | LEARNED.md, MODELS.md, FRAMES.md |
-| Relationship / people decisions | BELIEFS.md, NARRATIVES.md, WISDOM.md |
-| Book / media recommendation | BOOKS.md, MOVIES.md |
-| Reflecting on mistakes | WRONG.md, LEARNED.md |
-| Planning / project decisions | PROJECTS.md, GOALS.md, STRATEGIES.md |
-| General "what do you know about me" | MISSION.md, GOALS.md, BELIEFS.md, STATUS.md |
-| "setup telos" / onboarding | Read all filled files to assess current state |
-| Updating a specific file | Read that file only |
+Use this index to decide which files to read. Each file captures a different dimension of the user's life context:
 
-### How to load
+| File | Contains | Load when the conversation touches... |
+|---|---|---|
+| MISSION.md | M# — ultimate life purposes | direction, meaning, "why am I doing this", major decisions |
+| GOALS.md | G# — specific objectives with timelines | planning, priorities, "should I do X", progress, deadlines |
+| BELIEFS.md | B# — core convictions guiding decisions | values, principles, "what do you think about", worldview |
+| CHALLENGES.md | C# — current obstacles | frustration, being stuck, blockers, "I can't seem to" |
+| STRATEGIES.md | S# — approaches to challenges/goals | how to tackle something, methodology, "what's my plan for" |
+| PROBLEMS.md | P# — problems in the world to solve | entrepreneurship, impact, "what problem should I work on" |
+| PROJECTS.md | Active initiatives | work, side projects, "what am I working on" |
+| NARRATIVES.md | N# — talking points, self-story | pitching, introducing yourself, "how do I explain what I do" |
+| FRAMES.md | FR# — mental perspectives | reframing, alternative viewpoints, "how should I think about" |
+| MODELS.md | MO# — how things work | decision-making, analysis, cause-and-effect reasoning |
+| PREDICTIONS.md | Future bets with confidence levels | forecasting, trends, "what do you think will happen" |
+| WISDOM.md | Accumulated principles and quotes | advice, life lessons, "what's your take on" |
+| LEARNED.md | Specific lessons from experience | reflecting, "what have I learned about", mistakes made |
+| WRONG.md | Things the user was wrong about | intellectual humility, updating beliefs, "I changed my mind" |
+| BOOKS.md | Influential books | reading, recommendations, "what should I read" |
+| MOVIES.md | Influential films | media, culture, recommendations |
+| TRAUMAS.md | TR# — formative experiences | deep personal context, patterns, "why do I always" |
+| IDEAS.md | I# — ideas worth capturing | brainstorming, "I just thought of", creative exploration |
+| STATUS.md | Current life snapshot | "where am I right now", life audit, quarterly review |
+| TELOS.md | Master overview with all sections | "show me my telos", full context needed, onboarding |
+
+### Loading Rules
 
 1. Check if `~/clawd/telos/` exists. If not, skip silently.
-2. Based on the user's topic, read only the relevant files from the table above.
-3. Absorb silently — use the context to inform your response without announcing "I read your TELOS files."
-4. If a relevant file is empty (only template content), skip it.
-5. If no telos directory exists and the user asks about personal topics, suggest "setup telos."
+2. Read the user's message. Identify which life dimensions it touches (use the "Load when" column).
+3. Read only those files. Usually 1-3 files, rarely more than 4.
+4. Absorb silently — use the context to inform your response without announcing it.
+5. If a file is empty (only template content), skip it.
+6. For major life decisions, load the core trio: MISSION.md + GOALS.md + BELIEFS.md.
+7. If no telos directory exists and the user asks about personal topics, suggest "setup telos."
 
-The goal is to give personalized, values-aligned responses without loading unnecessary context or slowing down unrelated conversations.
+The goal: every response to a personal question should be informed by the user's own stated values, not generic advice. But unrelated conversations (coding, factual questions, etc.) should not trigger any telos loading.
 
 ## Trigger → Action Map
 
