@@ -29,11 +29,14 @@ const TOPIC_FILES = {
   idea: ["IDEAS.md", "GOALS.md"],
   predict: ["PREDICTIONS.md"],
   project: ["PROJECTS.md", "GOALS.md", "STRATEGIES.md"],
-  trauma: ["TRAUMAS.md"],
+  trauma: ["TRAUMAS.md"],  // NOTE: not auto-triggered by keyword; requires explicit "my trauma" or "telos trauma"
   status: ["STATUS.md"],
 };
 
 // Keywords that signal personal topics
+// NOTE: "trauma" is intentionally excluded from PERSONAL_KEYWORDS to prevent
+// accidental injection of TRAUMAS.md in group chats or unrelated conversations.
+// Use "my trauma", "telos trauma", or "traumas" to explicitly trigger it.
 const PERSONAL_KEYWORDS = [
   "should i", "what do you think", "my goal", "my belief", "career",
   "job offer", "invest", "decision", "stuck", "frustrated", "challenge",
@@ -54,7 +57,14 @@ function detectTopics(message) {
   const lower = message.toLowerCase();
   const topics = new Set();
   for (const [topic, _] of Object.entries(TOPIC_FILES)) {
-    if (lower.includes(topic)) topics.add(topic);
+    // "trauma" requires explicit match to avoid accidental injection of sensitive content
+    if (topic === "trauma") {
+      if (lower.includes("my trauma") || lower.includes("telos trauma") || lower.includes("traumas")) {
+        topics.add(topic);
+      }
+    } else {
+      if (lower.includes(topic)) topics.add(topic);
+    }
   }
   // Check personal keywords
   if (PERSONAL_KEYWORDS.some((kw) => lower.includes(kw))) {
