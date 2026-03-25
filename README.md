@@ -1,5 +1,7 @@
 # openclaw-telos
 
+![version](https://img.shields.io/badge/version-1.0.1-blue)
+
 **TELOS** (Telic Evolution and Life Operating System) — A personal life OS skill for [OpenClaw](https://openclaw.ai) and [Claude Code](https://claude.com/claude-code).
 
 Captures who you are across missions, goals, beliefs, challenges, and wisdom. Gives your AI a persistent understanding of *you* — so it can give life-aligned advice, not just generic answers.
