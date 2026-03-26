@@ -39,3 +39,18 @@ Format: [Semantic Versioning](https://semver.org)
 - Append-only file updates — no destructive overwrites
 - `.gitignore` excludes all personal telos data from version control
 - Paths hardcoded to `~/clawd/telos/` — no path traversal attack surface
+
+## [1.0.2] — 2026-03-26
+
+### Changed
+- **SKILL.md**: Add `requires` field in frontmatter declaring `bun` and `node` as
+  runtime dependencies (used by scripts and hook respectively)
+- **SKILL.md**: Clarify Context Loading section — explicitly distinguish between
+  "with hook" (auto-inject at bootstrap) vs "without hook" (on-demand only)
+- **SKILL.md**: Add opt-in warning before hook install instructions — users must
+  explicitly consent to persistent automatic context injection behavior
+
+These changes address ClawHub security scan findings:
+- Missing runtime requirement declarations
+- Inconsistency between "on-demand" description and hook's bootstrap auto-injection
+- Missing disclosure of persistent/privilege behavior for hook installation

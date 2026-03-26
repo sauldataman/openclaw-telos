@@ -1,6 +1,9 @@
 ---
 name: telos
 description: "TELOS (Telic Evolution and Life Operating System) — Reads, updates, and backs up the user's personal life OS stored in ~/clawd/telos/. Provides missions, goals, beliefs, challenges, and wisdom as context for life-aligned AI assistance. Based on Daniel Miessler's PAI framework. Use when: (1) user mentions 'telos', 'setup telos', 'update telos', 'add to telos', 'my goals', 'my beliefs', 'my missions', 'telos status'; (2) user asks about personal decisions, career direction, investment choices, relationships, priorities, or life strategy — always check for telos context first; (3) user says 'help me fill telos', '引导我填 telos', or 'telos onboarding'; (4) user says 'backup telos', 'restore telos', 'telos backups', 'telos history', or 'list telos snapshots'."
+requires:
+  - bun       # scripts/init-telos.ts, update-telos.ts, backup-telos.ts
+  - node      # hooks/telos-context.js (optional hook)
 ---
 
 # TELOS — Telic Evolution and Life Operating System
@@ -15,7 +18,12 @@ User's personal life OS. 20-file system capturing who they are across missions, 
 
 ## Context Loading
 
-Telos files are loaded **on-demand** — only read what's relevant to the current conversation. Never load everything at once.
+**Two modes depending on setup:**
+
+- **With hook** (`hooks/telos-context.js` installed): MISSION.md + GOALS.md + BELIEFS.md are **automatically pre-loaded at session start** via `agent:bootstrap`. Additional files are injected on-demand when relevant topics are detected in your messages. This grants the hook persistent, automatic behavior — only install if you want this.
+- **Without hook** (default): Files are loaded **on-demand only** — the AI reads SKILL.md instructions and loads the relevant files based on the context. Nothing is auto-injected.
+
+> ⚠️ **Persistence note:** Installing the hook enables automatic context injection at every session start. This is intentional behavior — opt in only if you want TELOS context always available.
 
 ### File Index
 
@@ -112,7 +120,10 @@ For deeper integration, the skill includes a hook that automatically injects TEL
 - **Session start (`agent:bootstrap`):** Loads MISSION.md + GOALS.md + BELIEFS.md so the AI knows your core context from the first message
 - **Every message (`message:preprocessed`):** Detects personal topics (career, decisions, investments, etc.) and injects only the relevant TELOS files before the AI responds
 
-**Install the hook:**
+**Install the hook (optional — enables automatic injection):**
+
+> ⚠️ **Opt-in only:** The hook injects your personal TELOS content (missions, goals, beliefs) into the system prompt at every session start and on relevant messages. This is **persistent automatic behavior** — only install if you explicitly want TELOS context always pre-loaded.
+
 ```bash
 cp {baseDir}/hooks/telos-context.js ~/.openclaw/hooks/
 ```
