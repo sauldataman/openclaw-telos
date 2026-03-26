@@ -13,7 +13,10 @@ import { existsSync, mkdirSync, readdirSync, copyFileSync, writeFileSync } from 
 import { join, dirname } from "path";
 import { homedir } from "os";
 
-const TELOS_DIR = join(homedir(), "clawd", "telos");
+// Resolve workspace: respect OPENCLAW_WORKSPACE env var (set by OpenClaw runtime)
+// Falls back to ~/openclaw/telos for standard installs, or ~/clawd/telos for legacy
+const _workspace = process.env.OPENCLAW_WORKSPACE || process.env.CLAWD_WORKSPACE || join(homedir(), "openclaw");
+const TELOS_DIR = join(_workspace, "telos");
 const BACKUPS_DIR = join(TELOS_DIR, "backups");
 const UPDATES_FILE = join(TELOS_DIR, "updates.md");
 

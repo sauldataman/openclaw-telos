@@ -8,3 +8,7 @@ telos-workspace/
 
 # OS
 .DS_Store
+
+# Build artifacts — not for version control
+*.skill
+dist/

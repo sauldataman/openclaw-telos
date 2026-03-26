@@ -22,9 +22,12 @@ import { existsSync, readdirSync, statSync, readFileSync, cpSync, mkdirSync, wri
 import { join, basename } from "path";
 import { homedir } from "os";
 
-const TELOS_DIR = join(homedir(), "clawd", "telos");
+// Resolve workspace: respect OPENCLAW_WORKSPACE env var (set by OpenClaw runtime)
+// Falls back to ~/openclaw/telos for standard installs, or ~/clawd/telos for legacy
+const _workspace = process.env.OPENCLAW_WORKSPACE || process.env.CLAWD_WORKSPACE || join(homedir(), "openclaw");
+const TELOS_DIR = join(_workspace, "telos");
 const BACKUPS_DIR = join(TELOS_DIR, "backups");
-const SNAPSHOTS_DIR = join(homedir(), "clawd", "telos-snapshots");
+const SNAPSHOTS_DIR = join(_workspace, "telos-snapshots");
 const SNAPSHOT_PREFIX = "telos-snapshot-";
 
 function getTimestamp(): string {

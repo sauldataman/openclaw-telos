@@ -54,3 +54,13 @@ These changes address ClawHub security scan findings:
 - Missing runtime requirement declarations
 - Inconsistency between "on-demand" description and hook's bootstrap auto-injection
 - Missing disclosure of persistent/privilege behavior for hook installation
+
+## [1.0.3] — 2026-03-26
+
+### Changed
+- **scripts & hook**: Replace hardcoded `~/clawd/telos` path with `$OPENCLAW_WORKSPACE/telos`
+  — respects OpenClaw runtime environment variable for cross-user compatibility.
+  Falls back to `~/openclaw/telos` (standard install) then `~/clawd/telos` (legacy).
+- **SKILL.md**: Update Data Location to reference `$OPENCLAW_WORKSPACE/telos/`
+- **`.gitignore`**: Add `*.skill` to exclude build artifacts from version control
+- **Git**: Remove `telos.skill` binary from repository tracking

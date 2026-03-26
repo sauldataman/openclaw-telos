@@ -12,7 +12,7 @@ User's personal life OS. 20-file system capturing who they are across missions, 
 
 ## Data Location
 
-- **User data**: `~/clawd/telos/` (never committed to git)
+- **User data**: `$OPENCLAW_WORKSPACE/telos/` (defaults to `~/openclaw/telos/`, never committed to git)
 - **Templates**: `assets/templates/` in this skill (20 files)
 - **References**: `references/onboarding.md`, `references/update-workflow.md`
 

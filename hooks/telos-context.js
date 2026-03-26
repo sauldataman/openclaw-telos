@@ -12,7 +12,9 @@
 const fs = require("fs");
 const path = require("path");
 
-const TELOS_DIR = path.join(require("os").homedir(), "clawd", "telos");
+// Resolve workspace from OpenClaw runtime env var
+const _workspace = process.env.OPENCLAW_WORKSPACE || process.env.CLAWD_WORKSPACE || path.join(require("os").homedir(), "openclaw");
+const TELOS_DIR = path.join(_workspace, "telos");
 
 // Core files loaded at every session start (lightweight, high-value)
 const CORE_FILES = ["MISSION.md", "GOALS.md", "BELIEFS.md"];
